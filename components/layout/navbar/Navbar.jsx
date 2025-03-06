@@ -22,7 +22,7 @@ const Navbar = () => {
         <ul className={
             OpenMenu
               ? "menu flex gap-[30px] items-center  justify-start "
-              : "menu flex gap-[40px] items-center  justify-start  max-[768px]:hidden"
+              : "menu flex gap-[40px] items-center    max-[768px]:hidden"
           }>
             <li><Link href="/" className="text-[20px] font-bold">صفحه اصلی</Link></li>
             <li><Link href="/" className="text-[20px] font-bold">خدمات</Link></li>
