@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar/Navbar";
+import Footer from "@/components/layout/footer/Footer";
 
 const font = localFont({
   src: [
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body className={font.className}>
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
