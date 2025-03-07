@@ -6,7 +6,7 @@ import Image from "next/image";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="bg-[#2a2a2a] w-full  mt-[50px]">
+    <div className="bg-[#2a2a2a] w-full ">
       <main className="footer flex justify-between items-center max-md:flex-col">
         <div className="right_footer flex flex-col">
           <h1 className="text-[#bcbcbc] pt-[30px] text-[22px] font-bold">
@@ -39,7 +39,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="left_footer w-[500px] max-md:w-full max-md:mt-[30px] ">
+        <div className="left_footer w-[350px] max-md:w-full max-md:mt-[30px] ">
           <p className="text-[#bcbcbc] text-[20px] w-[190px] text-center">
             ماساژ درمانی ، پناهگاهی امن برای آرامش و تجدید قواست{" "}
           </p>

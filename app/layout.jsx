@@ -13,8 +13,8 @@ const font = localFont({
   ],
 });
 export const metadata = {
-  title: "مریم خلیلی",
-  description: "ماساژ / کرمان",
+  title: "ماساژ  | مریم خلیلی زاده",
+  description: "ماساژ تخصصی کرمان",
 };
 
 export default function RootLayout({ children }) {
