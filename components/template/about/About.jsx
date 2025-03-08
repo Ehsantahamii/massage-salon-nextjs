@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const About = () => {
-  const skilss = [
+  const skills = [
     { id: 1, text: "ماساژ رویای آرامش" },
     { id: 2, text: "ماساژ آروماتراپی" },
     { id: 3, text: "ماساژ رویای آرامش" },
@@ -22,8 +22,8 @@ const About = () => {
         <div className="img_about">
           <Image
             src="/img/img_about.png"
-            width={100}
-            height={100}
+            width={1000}
+            height={1500}
             className="w-[460px] h-[500px] rounded-xl"
           />
         </div>
@@ -40,8 +40,8 @@ const About = () => {
           </p>
           <div className="title_skill text-[30px] font-bold mt-5">مهارت ها</div>
           <div className="skilss flex justify-around items-center flex-wrap mt-2 gap-1">
-            {skilss.map((index) => (
-              <div key={index.id} className="bg-slate-300 flex justify-around items-center flex-wrap mt-2 p-1 rounded-md"><h1>{index.text}</h1></div>
+            {skills.map((index) => (
+              <div key={index.id} className="bg-slate-300 flex justify-around items-center flex-wrap mt-2 py-1 px-2 rounded-md"><h1>{index.text}</h1></div>
             ))}
           </div>
         </div>

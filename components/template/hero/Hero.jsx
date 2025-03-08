@@ -138,8 +138,8 @@ const Hero = () => {
       <div className="massage">
         <Image
           src="/img/MASSAGE.svg"
-          width={100}
-          height={100}
+          width={1280}
+          height={204}
           className="w-full mt-[-80px] max-md:mt-[-400px]"
         />
       </div>

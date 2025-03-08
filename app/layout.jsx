@@ -20,8 +20,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body className={font.className}>
-        <Navbar/>
+      <body className={`${font.className} max-w-[1280px] mx-auto overflow-x-hidden`}>
+        <Navbar />
         {children}
         <Footer/>
       </body>

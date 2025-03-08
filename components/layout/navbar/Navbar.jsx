@@ -8,7 +8,7 @@ const Navbar = () => {
     const [OpenMenu, setOpenMenu] = useState(false);
 
   return (
-    <main className="navbar flex justify-between items-center my-[35px]">
+    <nav className="navbar flex justify-between items-center my-[35px]">
         {/* logo */}
         <div className="logo_nav"><h1 className="font-bold">LOGO</h1></div>
         {/* menu */}
@@ -34,7 +34,7 @@ const Navbar = () => {
             <span className="text-[20px] font-normal">09130571436</span>
             <FaPhone />
         </div>
-    </main>
+    </nav>
   )
 }
 
