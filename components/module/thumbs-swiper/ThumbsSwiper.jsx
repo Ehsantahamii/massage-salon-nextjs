@@ -14,7 +14,7 @@ const ThumbsSwiper = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
-        <div className='w-[100vw] bg-red-400 py-16 mt-[24rem] lg:mt-0 overflow-x-hidden max-w-[100%] relative'>
+        <div className='w-[100vw]  py-16 mt-[24rem] lg:mt-0 overflow-x-hidden max-w-[100%] relative'>
             <h2 className='md:text-4xl font-semibold'>
                 ماساژ چه فوایدی دارد یا مطالب در مورد ماساژ
             </h2>
@@ -143,7 +143,7 @@ const ThumbsSwiper = () => {
                     </svg>
                 </div>
 
-                <SwiperSlide className=''>
+                <SwiperSlide>
                     <div className='w-full flex '>
                         <div className='w-0 lg:w-1/4 '>
 

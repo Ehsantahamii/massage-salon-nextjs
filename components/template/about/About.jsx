@@ -17,7 +17,7 @@ const About = () => {
     { id: 12, text: "ماساژ هربال" },
   ];
   return (
-    <div className="w-full mt-14 mb-14 max-md:mt-[25rem] bg-blue-500">
+    <div className="w-full mt-14 mb-14 max-md:mt-[-100px] ">
       <div className="about flex justify-between items-center max-lg:gap-5 max-md:flex-col">
         <div className="img_about">
           <Image
