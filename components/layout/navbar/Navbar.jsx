@@ -4,13 +4,14 @@ import { FaPhone } from "react-icons/fa6";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import './Navbar.css'
+import Image from "next/image";
 const Navbar = () => {
     const [OpenMenu, setOpenMenu] = useState(false);
 
   return (
-    <nav className="navbar flex justify-between items-center my-[35px]">
+    <nav className="navbar flex justify-between items-center my-[25px]">
         {/* logo */}
-        <div className="logo_nav"><h1 className="font-bold">LOGO</h1></div>
+        <div className="logo_nav"><Image src="/img/logo.jpg" width={140} height={150} className=""/></div>
         {/* menu */}
         <div
           className="nav_toogle flex-1 mr-5 md:hidden cursor-pointer  text-[25px] text-[#2a2a2a]"

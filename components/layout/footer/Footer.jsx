@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="left_footer w-[350px] max-md:w-full max-md:mt-[30px] ">
           <p className="text-[#bcbcbc] text-[20px] w-[190px] text-center">
-            ماساژ درمانی ، پناهگاهی امن برای آرامش و تجدید قواست{" "}
+            ماساژ درمانی ، پناهگاهی امن برای آرامش و تجدید قواست
           </p>
           <div className="bt absolute mt-[40px] mr-[115px]">
             <Link href="/">
