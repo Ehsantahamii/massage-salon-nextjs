@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar flex justify-between items-center my-[25px]">
         {/* logo */}
-        <div className="logo_nav"><Image src="/img/logo.jpg" width={140} height={150} className=""/></div>
+        <div className="logo_nav"><Image src="/img/logo.png" width={140} height={150} className=""/></div>
         {/* menu */}
         <div
           className="nav_toogle flex-1 mr-5 md:hidden cursor-pointer  text-[25px] text-[#2a2a2a]"
@@ -27,7 +27,7 @@ const Navbar = () => {
           }>
             <li><Link href="/" className="text-[20px] font-bold">صفحه اصلی</Link></li>
             <li><Link href="/" className="text-[20px] font-bold">خدمات</Link></li>
-            <li><Link href="/" className="text-[20px] font-bold">ارتباط با ما</Link></li>
+            <li><Link href="/contact-me" className="text-[20px] font-bold">ارتباط با من</Link></li>
             <li><Link href="/" className="text-[20px] font-bold">بلاگ</Link></li>
         </ul>
         {/* phone */}
