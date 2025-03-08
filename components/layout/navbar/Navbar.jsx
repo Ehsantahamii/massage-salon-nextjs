@@ -8,7 +8,7 @@ const Navbar = () => {
     const [OpenMenu, setOpenMenu] = useState(false);
 
   return (
-    <main className="navbar flex justify-between items-center my-[35px]">
+    <nav className="navbar flex justify-between items-center my-[35px]">
         {/* logo */}
         <div className="logo_nav"><h1 className="font-bold">LOGO</h1></div>
         {/* menu */}
@@ -22,7 +22,7 @@ const Navbar = () => {
         <ul className={
             OpenMenu
               ? "menu flex gap-[30px] items-center  justify-start "
-              : "menu flex gap-[40px] items-center  justify-start  max-[768px]:hidden"
+              : "menu flex gap-[40px] items-center    max-[768px]:hidden"
           }>
             <li><Link href="/" className="text-[20px] font-bold">صفحه اصلی</Link></li>
             <li><Link href="/" className="text-[20px] font-bold">خدمات</Link></li>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <span className="text-[20px] font-normal">09130571436</span>
             <FaPhone />
         </div>
-    </main>
+    </nav>
   )
 }
 

@@ -21,7 +21,8 @@ body {
   overflow-x: hidden;
   background-color: var(--background);
 }
-main {
+main,
+nav {
   max-width: 1280px;
   width: 95vw;
   margin: 0 auto;
