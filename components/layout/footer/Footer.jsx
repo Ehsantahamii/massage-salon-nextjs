@@ -6,7 +6,7 @@ import Image from "next/image";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="bg-[#2a2a2a] w-full ">
+    <section className="bg-[#2a2a2a] w-full">
       <main className="footer flex justify-between items-center max-md:flex-col">
         <div className="right_footer flex flex-col">
           <h1 className="text-[#bcbcbc] pt-[30px] text-[22px] font-bold">
@@ -74,7 +74,7 @@ const Footer = () => {
           className="w-full m-auto"
         />
       </main>
-    </div>
+    </section>
   );
 };
 

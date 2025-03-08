@@ -17,7 +17,7 @@ const About = () => {
     { id: 12, text: "ماساژ هربال" },
   ];
   return (
-    <div className="w-full mt-14 max-md:mt-[25rem]">
+    <div className="w-full mt-14 mb-14 max-md:mt-[25rem] bg-blue-500">
       <div className="about flex justify-between items-center max-lg:gap-5 max-md:flex-col">
         <div className="img_about">
           <Image
@@ -41,7 +41,7 @@ const About = () => {
           <div className="title_skill text-[30px] font-bold mt-5">مهارت ها</div>
           <div className="skilss flex justify-around items-center flex-wrap mt-2 gap-1">
             {skills.map((index) => (
-              <div key={index.id} className="bg-slate-300 flex justify-around items-center flex-wrap mt-2 py-1 px-2 rounded-md"><h1>{index.text}</h1></div>
+              <div key={index.id} className="bg-gray-200 flex justify-around items-center flex-wrap mt-2 py-1 px-2 rounded-md"><h1>{index.text}</h1></div>
             ))}
           </div>
         </div>
