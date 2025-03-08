@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar/Navbar";
+import Footer from "@/components/layout/footer/Footer";
 
 const font = localFont({
   src: [
@@ -12,8 +13,8 @@ const font = localFont({
   ],
 });
 export const metadata = {
-  title: "مریم خلیلی",
-  description: "ماساژ / کرمان",
+  title: "ماساژ  | مریم خلیلی زاده",
+  description: "ماساژ تخصصی کرمان",
 };
 
 export default function RootLayout({ children }) {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body className={`${font.className} max-w-[1280px] mx-auto overflow-x-hidden`}>
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );

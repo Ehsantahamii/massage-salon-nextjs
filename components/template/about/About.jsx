@@ -31,7 +31,7 @@ const About = () => {
           <h3 className="text-[50px] font-bold mb-10">درباره من</h3>
           <h1 className="text-[30px] font-bold">مریم خلیلی زاده </h1>
           <p className="font-bold">کارشناسی تربیت بدنی </p>
-          <p className="font-bold text-justify">
+          <p className="font-bold text-justify max-md:text-[15px]">
             “من به عنوان یک ماساژور حرفه ای با بیش از 4 سال تجربه در زمینه ماساژ
             درمانی و ریلکسیشن، همواره تلاش کرده‌ام تا با استفاده از تکنیک‌های
             مدرن و سنتی، به بهبود سلامت جسمی و روحی مراجعین خود کمک کنم. من به
