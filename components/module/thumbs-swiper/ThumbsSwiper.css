@@ -19,21 +19,20 @@
 }
 .mySwiper2 .swiper-slide {
   cursor: pointer;
-  /* width: 200px;
-  height: 200px; */
-  width: 150px !important;
-  height: 150px !important;
+  max-width: 200px;
+  max-height: 200px;
+  aspect-ratio: 1/1;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ececec;
   color: #2a2a2a69;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 100% !important;
-  -webkit-border-radius: 100% !important;
-  -moz-border-radius: 100% !important;
-  -ms-border-radius: 100% !important;
-  -o-border-radius: 100% !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -42,7 +41,6 @@
 }
 
 .mySwiper2 .swiper-slide-active {
-  scale: 1.2;
   color: #2a2a2a;
   background-color: #eeeeee;
   box-shadow: #2a5e97 2px 2px 16px 0px,
