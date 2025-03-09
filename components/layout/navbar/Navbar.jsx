@@ -7,7 +7,9 @@ import './Navbar.css'
 import Image from "next/image";
 const Navbar = () => {
     const [OpenMenu, setOpenMenu] = useState(false);
-
+    const nulls = () => {
+      setOpenMenu(null);
+    }
   return (
     <nav className="navbar flex justify-between items-center my-[25px]">
         {/* logo */}
@@ -22,16 +24,16 @@ const Navbar = () => {
 
         <ul className={
             OpenMenu
-              ? "menu flex gap-[30px] items-center  justify-start "
+              ? "menu flex gap-[50px] items-center  justify-start "
               : "menu flex gap-[40px] items-center    max-[768px]:hidden"
           }>
-            <li><Link href="/" className="text-[20px] font-bold">صفحه اصلی</Link></li>
-            <li><Link href="/" className="text-[20px] font-bold">خدمات</Link></li>
-            <li><Link href="/contact-me" className="text-[20px] font-bold">ارتباط با من</Link></li>
-            <li><Link href="/" className="text-[20px] font-bold">بلاگ</Link></li>
+            <li><Link href="/" className="text-[20px] font-bold" onClick={nulls}>صفحه اصلی</Link></li>
+            <li><Link href="/" className="text-[20px] font-bold" onClick={nulls}>خدمات</Link></li>
+            <li><Link href="/contact-me" className="text-[20px] font-bold" onClick={nulls}>ارتباط با من</Link></li>
+            <li><Link href="/" className="text-[20px] font-bold" onClick={nulls}>بلاگ</Link></li>
         </ul>
         {/* phone */}
-        <div className="phone flex items-center gap-3">
+        <div className="phone flex items-center gap-3 max-md:hidden">
             <span className="text-[20px] font-normal">09130571436</span>
             <FaPhone />
         </div>

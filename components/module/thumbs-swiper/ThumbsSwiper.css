@@ -19,7 +19,7 @@
 }
 .mySwiper2 .swiper-slide {
   cursor: pointer;
-  max-width: 200px;
+  max-width:200px;
   max-height: 200px;
   aspect-ratio: 1/1;
   display: flex;
@@ -38,6 +38,7 @@
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+  margin: 0 auto;
 }
 
 .mySwiper2 .swiper-slide-active {

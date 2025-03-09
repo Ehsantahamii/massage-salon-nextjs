@@ -13,7 +13,7 @@ export const metadata = {
 };
 const page = () => {
   return (
-    <div className="container flex justify-between items-center mb-14 mt-14 max-md:flex-col">
+    <main className="container flex justify-between items-center mb-14 mt-14 max-md:flex-col">
       <svg
         className="w-[50%] max-md:w-[340px]"
         xmlns="http://www.w3.org/2000/svg"
@@ -772,7 +772,7 @@ const page = () => {
           </g>
         </g>
       </svg>
-      <div className="form flex flex-col w-[500px] max-lg:w-[300px] max-md:w-full max-md:mt-10 max-md:p-5">
+      <main className="form flex flex-col w-[500px] max-lg:w-[300px] max-md:w-full max-md:mt-10 max-md:p-5">
         <div className="title flex justify-between items-center">
           <h1 className="text-[35px] font-bold max-lg:text-[25px]">راه های ارتباط با من</h1>
           <Link href="/" className="text-[#D8BF91] font-bold">
@@ -790,11 +790,11 @@ const page = () => {
           </div>
           <div className="social flex items-center gap-5 text-[30px]">
           <FaTelegram className="bg-[#D8BF91] p-2 text-[40px] text-[#fff]"/>
-          <span>ssss</span>
+          <span>Maryam_kh1370@</span>
           </div>
         </div>
-      </div>
-    </div>
+      </main>
+    </main>
   );
 };
 

@@ -1,11 +1,11 @@
-import ThumbsSwiper from '@/components/module/thumbs-swiper/ThumbsSwiper';
-import React from 'react';
+import ThumbsSwiper from "@/components/module/thumbs-swiper/ThumbsSwiper";
+
 
 const SwiperPage = () => {
-    return (
-        <ThumbsSwiper />
-
-    );
+    
+  return (
+    <ThumbsSwiper/>
+  );
 };
 
 export default SwiperPage;
