@@ -17,17 +17,17 @@ const About = () => {
     { id: 12, text: "ماساژ هربال" },
   ];
   return (
-    <div className="w-full mt-14 mb-14 max-md:mt-[370px] ">
+    <div className="w-full mt-14 mb-14 max-md:mt-[-150px] ">
       <div className="about flex justify-between items-center max-lg:gap-5 max-md:flex-col">
-        <div className="img_about">
+        <div className="img_about lg:w-[40%]">
           <Image
             src="/img/img_about.png"
             width={1000}
             height={1500}
-            className="w-[460px] h-[500px] rounded-xl"
+            className="w-[460px] h-[500px] rounded-xl "
           />
         </div>
-        <div className="content_about flex flex-col leading-10 w-[700px] max-md:w-full">
+        <div className="content_about flex flex-col leading-10 w-[700px] max-md:w-full max-md:p-2 lg:w-[60%]">
           <h3 className="text-[50px] font-bold mb-10">درباره من</h3>
           <h1 className="text-[30px] font-bold">مریم خلیلی زاده </h1>
           <p className="font-bold">کارشناسی تربیت بدنی </p>
