@@ -64,7 +64,7 @@ const ThumbsSwiper = () => {
                 slidesPerView={1}
                 loop={true}
                 slideToClickedSlide={true}
-                spaceBetween={10}
+                spaceBetween={30}
                 centeredSlides={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs]}
