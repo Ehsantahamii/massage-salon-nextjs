@@ -6,10 +6,10 @@ import Image from "next/image";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <section className="bg-[#2a2a2a] w-full">
-      <main className="footer flex justify-between items-center max-md:flex-col">
+    <section className="bg-[#2a2a2a] w-full px-8">
+      <div className="footer text-[#bcbcbc]  mx-auto flex justify-between items-center max-md:flex-col">
         <div className="right_footer flex flex-col">
-          <h1 className="text-[#bcbcbc] pt-[30px] text-[22px] font-bold">
+          <h1 className=" pt-[30px] text-[22px] font-bold">
             مجموعه ماساژ تخصصی با مدیریت مریم خلیلی زاده
           </h1>
           <div className="location flex gap-2 items-center pt-3">
@@ -44,17 +44,6 @@ const Footer = () => {
             ماساژ درمانی ، پناهگاهی امن برای آرامش و تجدید قواست
           </p>
           <div className="bt absolute mt-[40px] mr-[115px]">
-            <Link href="/">
-              <Image
-                src="/img/bt_reserv.svg"
-                width={430}
-                height={85}
-                className="w-[220px] h-[85px]"
-              />
-              <h1 className="text-[#fff] absolute mt-[-64px] mr-[64px] text-[30px]">
-                رزرو نوبت
-              </h1>
-            </Link>
           </div>
         </div>
         <div className="dev_mart flex items-center gap-2 mt-12 max-md:mt-[150px] md:hidden">
@@ -65,15 +54,15 @@ const Footer = () => {
             <img src="/img/dev_mart.svg" alt="developMart" />
           </Link>
         </div>
-      </main>
-      <main className="img_footer mt-14">
+      </div>
+      <div className="img_footer px-8 mt-14">
         <Image
           src="/img/MASSAGE_footer.svg"
           width={100}
           height={100}
           className="w-full m-auto"
         />
-      </main>
+      </div>
     </section>
   );
 };

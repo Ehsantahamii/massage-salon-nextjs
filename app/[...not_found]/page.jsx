@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import "./not_found.css";
 export default function NotFound() {

@@ -64,28 +64,41 @@ const ThumbsSwiper = () => {
                 slidesPerView={1}
                 loop={true}
                 slideToClickedSlide={true}
-                spaceBetween={220}
+                spaceBetween={10}
                 centeredSlides={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs]}
                 breakpoints={{
+                    480: {
+                        slidesPerView: "auto",
+                        spaceBetween: 30, // Smaller space for small screens
+                    },
                     640: {
-                        slidesPerView: 1,
-                        spaceBetween: 100,
+                        slidesPerView: "auto",
+                        spaceBetween: 50,
                     },
                     768: {
-                        slidesPerView: 1,
-                        spaceBetween: 150,
-                        
-
+                        slidesPerView: "auto",
+                        spaceBetween: 80,
                     },
                     1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 190,
+                        slidesPerView: "auto",
+                        spaceBetween: 120,
                     },
-                }}
-                className="mySwiper2 max-w-[90vw] mx-auto md:max-w-[820px] font-bold"
+                }} className="mySwiper2 max-w-[90vw] mx-auto md:max-w-[820px] font-bold"
             >
+                <SwiperSlide>
+                    رفع درد مفاصل
+                </SwiperSlide>
+                <SwiperSlide>
+                    رفع درد مفاصل
+                </SwiperSlide>
+                <SwiperSlide>
+                    رفع درد مفاصل
+                </SwiperSlide>
+                <SwiperSlide>
+                    رفع درد مفاصل
+                </SwiperSlide>
                 <SwiperSlide>
                     رفع درد مفاصل
                 </SwiperSlide>
