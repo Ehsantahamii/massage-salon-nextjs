@@ -1,8 +1,10 @@
+import MovingText from "@/components/module/movingtext/MovingText";
+import ReserveBtn from "@/components/module/resrevebtn/ReserveBtn";
 import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" w-full mt-14">
+    <div className="box w-full mt-14">
       <div className="hero_page flex justify-between items-center max-md:flex-col max-md:gap-5">
         <h1 className="w-[260px]  text-center font-bold text-[23px] mt-[-27rem] max-xl:mt-0 max-lg:mt-[-30rem] max-md:mt-0 max-md:w-full">
           اینجا قراره عاشق ماساژ بشی.
@@ -14,15 +16,22 @@ const Hero = () => {
             src="/img/img-hero.jpg"
             width={600}
             height={460}
-            className="rounded-[15px] w-[500px] h-[470px]"
+            className="rounded-[15px]  w-[500px] h-[470px]"
           />
         </div>
         <div className="img_hero flex flex-col items-center mt-[-13rem] max-xl:mt-0 max-lg:mt-[-20rem] max-md:mt-[30px]">
-          <Image src="/img/image_hero.svg" width={170} height={265} />
+          <Image className="hidden lg:block" src="/img/image_hero.svg" width={170} height={265} />
           <h1 className="w-[211px] text-center font-bold text-[18px] max-md:w-full max-md:text-[20px]">
-            برای یک برگشتن به یک زندگی عالی با یک ماساژ عالی تر آماده هستی ؟
+            برای یک تجربه متفاوت همین حالا وقت خود را رزرو کنید
           </h1>
         </div>
+        <div className="flex lg:hidden flex-col items-center justify-center">
+          <h1 className="text-[32px] py-8 font-bold text-center " style={{ wordSpacing: "8px" }}>
+            مرکز آموزش و خدمات ماساژ مریم خلیلی
+          </h1>
+          <ReserveBtn />
+        </div>
+
         <svg
           width="1081"
           height="257"
@@ -135,14 +144,16 @@ const Hero = () => {
           </defs>
         </svg>
       </div>
-      <div className="massage">
-        <Image
-          src="/img/MASSAGE.svg"
-          width={1280}
-          height={204}
-          className="w-full mt-[-80px] max-md:mt-[-400px]"
-        />
+      <div className="massage" >
+        <MovingText />
       </div>
+      <div className=" hidden lg:flex flex-col items-center justify-center">
+        <h1 className="text-[32px] py-8 font-bold text-center " style={{ wordSpacing: "8px" }}>
+          مرکز آموزش و خدمات ماساژ مریم خلیلی
+        </h1>
+        <ReserveBtn />
+      </div>
+
     </div>
   );
 };
