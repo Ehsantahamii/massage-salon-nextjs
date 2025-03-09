@@ -19,6 +19,8 @@
 }
 .mySwiper2 .swiper-slide {
   cursor: pointer;
+  text-align: center;
+  padding: 0 8px;
   max-width: 200px;
   max-height: 200px;
   aspect-ratio: 1/1;
