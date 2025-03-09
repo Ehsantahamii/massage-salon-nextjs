@@ -8,7 +8,7 @@ import "./ThumbsSwiper.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // import required modules
-import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import { FreeMode, Navigation, Thumbs, Autoplay, EffectFade } from 'swiper/modules';
 
 const ThumbsSwiper = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -16,7 +16,7 @@ const ThumbsSwiper = () => {
     return (
         <div className='w-[100vw]  py-16 mt-[24rem] lg:mt-0 overflow-x-hidden max-w-[100%] relative'>
             <h2 className='md:text-4xl font-semibold'>
-                ماساژ چه فوایدی دارد یا مطالب در مورد ماساژ
+                آرامش، سلامت و انرژی در یک تجربه بی‌نظیر
             </h2>
             <svg className=' lg:hidden absolute z-[10] top-[5.1rem] right-[46%]' width="28" height="429" viewBox="0 0 28 429" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line x1="13" y1="119" x2="13" y2="-4.37114e-08" stroke="#2A2A2A" stroke-width="2" stroke-dasharray="5 5" />
@@ -66,9 +66,10 @@ const ThumbsSwiper = () => {
                 slideToClickedSlide={true}
                 spaceBetween={50}
                 centeredSlides={true}
+                speed={800}
                 centeredSlidesBounds
                 thumbs={{ swiper: thumbsSwiper }}
-                modules={[FreeMode, Navigation, Thumbs]}
+                modules={[FreeMode, Navigation, Thumbs, Autoplay]}
                 breakpoints={{
                     480: {
                         slidesPerView: "2",
@@ -76,11 +77,11 @@ const ThumbsSwiper = () => {
                     },
                     640: {
                         slidesPerView: "3",
-                        spaceBetween: 50,
                     },
                     768: {
                         slidesPerView: "3",
-                        spaceBetween: 80,
+                        spaceBetween: 120,
+
                     },
                     1024: {
                         slidesPerView: "3",
@@ -116,10 +117,11 @@ const ThumbsSwiper = () => {
                 loop={true}
                 spaceBetween={80}
                 slidesPerView={1}
+                speed={800}
                 watchSlidesProgress={true}
                 draggable={false}
                 allowTouchMove={false}
-                modules={[FreeMode, Navigation, Thumbs]}
+                modules={[FreeMode, Navigation, Thumbs, Autoplay, EffectFade]}
                 className="mySwiper relative font-semibold"
             >
                 <div className='top-0 hidden lg:block absolute bg-foreground z-50'>
@@ -146,21 +148,21 @@ const ThumbsSwiper = () => {
                 </div>
 
                 <SwiperSlide>
-                    <div className='w-full flex '>
-                        <div className='w-0 lg:w-1/4 '>
+                    <div className='w-full flex'>
+                        <div className='w-0 lg:w-[30%] '>
 
                         </div>
-                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-3/4'>
+                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-[60%]'>
                             تحقیقات علمی نشان داده‌اند که ماساژ باعث افزایش سطح گلبول‌های سفید می‌شود که نقش مهمی در مبارزه با عفونت‌ها و ویروس‌ها دارند. همچنین، با کاهش سطح استرس، بدن در برابر بیماری‌هایی مانند سرماخوردگی و آنفولانزا مقاوم‌تر می‌شود. ماساژ، یک روش غیرمستقیم برای تقویت سیستم دفاعی بدن محسوب می‌شود.
                         </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='w-full flex '>
-                        <div className='w-0 lg:w-1/4 '>
+                        <div className='w-0 lg:w-[30%] '>
 
                         </div>
-                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-3/4'>
+                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-[60%]'>
                             اگر تا به حال بعد از یک تمرین سنگین دچار گرفتگی و درد عضلانی شده‌اید، ماساژ می‌تواند راه نجات شما باشد! این کار با افزایش دمای بافت‌های عضلانی، آزادسازی گره‌های عصبی و افزایش خون‌رسانی، باعث کاهش تنش و اسپاسم عضلانی می‌شود. ماساژ درمانی برای افرادی که دچار مشکلاتی مانند کمردرد مزمن، گردن درد، فیبرومیالژیا یا سندرم درد میوفاسیال هستند، توصیه می‌شود.
 
                         </p>
@@ -168,10 +170,10 @@ const ThumbsSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='w-full flex '>
-                        <div className='w-0 lg:w-1/4 '>
+                        <div className='w-0 lg:w-[30%] '>
 
                         </div>
-                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-3/4'>
+                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-[60%]'>
                             یکی از فواید مهم ماساژ، تحریک سیستم گردش خون است. حرکات دست ماساژور روی بدن، رگ‌های خونی را گشاد کرده و موجب افزایش جریان خون در سراسر بدن می‌شود. افزایش اکسیژن‌رسانی به بافت‌ها و عضلات، یکی از نتایج این فرآیند است که باعث کاهش خستگی، بهبود عملکرد بدن و حتی افزایش انرژی فرد می‌شود. علاوه بر این، بهبود گردش خون در پوست موجب درخشندگی و شادابی پوست نیز خواهد شد.
 
                         </p>
@@ -179,10 +181,10 @@ const ThumbsSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='w-full flex '>
-                        <div className='w-0 lg:w-1/4 '>
+                        <div className='w-0 lg:w-[30%] '>
 
                         </div>
-                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-3/4'>
+                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-[60%]'>
                             ماساژ، یک روش طبیعی برای آرامش ذهن و کاهش استرس است. هنگام ماساژ، بدن شروع به ترشح هورمون‌های آرامش‌بخش مانند سروتونین، دوپامین و اندورفین می‌کند. این مواد شیمیایی به مغز پیام آرامش ارسال می‌کنند و حس خوشایندی را در بدن ایجاد می‌کنند. از سوی دیگر، ماساژ باعث کاهش سطح کورتیزول (هورمون استرس) شده و به فرد احساس راحتی و تعادل روانی می‌دهد. برای افرادی که دچار اضطراب مزمن هستند، جلسات منظم ماساژ می‌تواند جایگزین مناسبی برای برخی روش‌های دارویی باشد.
 
                         </p>
@@ -190,10 +192,10 @@ const ThumbsSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='w-full flex '>
-                        <div cclassName='w-0 lg:w-1/4 '>
+                        <div cclassName='w-0 lg:w-[30%] '>
 
                         </div>
-                        <p className='max-w-[950px]w-[95%] mx-auto lg:w-3/4'>
+                        <p className='max-w-[950px]w-[95%] mx-auto lg:w-[60%]'>
                             ماساژ یکی از راه‌های طبیعی برای رفع بی‌خوابی و بهبود کیفیت خواب است. هنگام ماساژ، بدن وارد وضعیت پاراسمپاتیک می‌شود که یک حالت عمیق از آرامش را ایجاد می‌کند. همچنین، با افزایش ترشح سروتونین و کاهش تنش عضلانی، فرد سریع‌تر به خواب رفته و خواب عمیق‌تری را تجربه می‌کند. این اثر به‌ویژه برای افرادی که دچار بی‌خوابی ناشی از استرس یا اضطراب هستند، بسیار مفید است.
 
                         </p>
@@ -201,10 +203,10 @@ const ThumbsSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='w-full flex '>
-                        <div className='w-0 lg:w-1/4 '>
+                        <div className='w-0 lg:w-[30%] '>
 
                         </div>
-                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-3/4'>
+                        <p className='max-w-[950px] w-[95%] mx-auto lg:w-[60%]'>
                             ماساژ باعث تحریک سیستم لنفاوی می‌شود، سیستمی که نقش اصلی در دفع سموم و مواد زائد بدن دارد. سیستم لنفاوی بر خلاف گردش خون، پمپی مانند قلب ندارد و حرکت آن وابسته به انقباضات عضلانی است. ماساژ با تحریک گره‌های لنفاوی، به تخلیه سموم و کاهش تورم در بدن کمک می‌کند. این ویژگی به‌خصوص برای افرادی که سبک زندگی کم‌تحرکی دارند یا در معرض آلودگی‌های محیطی قرار دارند، بسیار مفید است.
 
                         </p>
@@ -212,17 +214,17 @@ const ThumbsSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='w-full flex '>
-                        <div cclassName='w-0 lg:w-1/4 '>
+                        <div cclassName='w-0 lg:w-[30%] '>
 
                         </div>
-                        <p className='max-w-[950px] lg:pr-[10rem] w-[95%] mx-auto lg:w-3/4'>
+                        <p className='max-w-[950px] lg:pr-[10rem] w-[95%] mx-auto lg:w-[60%]'>
                             ماساژ به دلیل افزایش جریان خون و کاهش التهاب در مفاصل، به بهبود دامنه حرکتی و انعطاف‌پذیری بدن کمک می‌کند. همچنین، ماساژ باعث ترشح مایع سینوویال (مایعی که بین مفاصل جریان دارد و به روان‌کاری آن‌ها کمک می‌کند) شده و از خشک شدن مفاصل جلوگیری می‌کند. این ویژگی برای افراد مسن، ورزشکاران و کسانی که دچار آرتروز یا مشکلات مفصلی هستند، بسیار مفید است.
                         </p>
                     </div>
                 </SwiperSlide>
             </Swiper>
 
-        </div>
+        </div >
     );
 };
 
