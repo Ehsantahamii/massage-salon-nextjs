@@ -7,14 +7,14 @@ const MovingText = () => {
         gsap.registerPlugin(ScrollTrigger);
 
         gsap.to('.moving-text', {
-            translateY: 2,
-            ease: 'bounce.in',
-            stagger: 0.5,
             scrollTrigger: {
                 trigger: '.moving-text',
                 start: 'top top',
-                end: '+=20%',
+                end: '+=50%',
                 scrub: true,
+                smooth: 2,
+                speed: 6,
+                effects: true,
                 pin: true,
             },
         });

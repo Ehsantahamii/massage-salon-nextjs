@@ -11,6 +11,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  scroll-behavior: smooth !important;
+}
 a {
   font-weight: 500;
   text-decoration: inherit;
