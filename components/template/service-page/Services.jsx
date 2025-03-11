@@ -16,7 +16,7 @@ const Services = () => {
           </div>
           <div className="title_reserv flex flex-col justify-center items-center mt-[45px]">
             <h1 className="text-[35px] font-bold mb-5 max-md:text-[22px] max-md:mb-1">برای رزرو نوبت فقط کافیه کلیک کنید</h1>
-            <Link href="/"><Image src="/img/vectors.svg" width={330} height={85} className="max-md:w-[200px] h-[85px]"/></Link>
+           
           </div>
         </main>
         <svg
