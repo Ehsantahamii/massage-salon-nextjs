@@ -287,7 +287,7 @@ const ThumbsSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full flex ">
+          <div className="w-full flex">
             <div className="w-0 lg:w-1/4 "></div>
             <p className="max-w-[950px] w-[95%] mx-auto lg:w-3/4 p-2 max-md:text-[15px]">
               یکی از فواید مهم ماساژ، تحریک سیستم گردش خون است. حرکات دست
@@ -300,7 +300,7 @@ const ThumbsSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full flex ">
+          <div className="w-full flex">
             <div className="w-0 lg:w-1/4 "></div>
             <p className="max-w-[950px] w-[95%] mx-auto lg:w-3/4 p-2 max-md:text-[15px]">
               ماساژ، یک روش طبیعی برای آرامش ذهن و کاهش استرس است. هنگام ماساژ،
