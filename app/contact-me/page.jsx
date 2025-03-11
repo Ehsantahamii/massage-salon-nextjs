@@ -5,7 +5,7 @@ import { CiInstagram } from "react-icons/ci";
 import { FaTelegram } from "react-icons/fa";
 
 export const metadata = {
-  title: " ارتباط با من | مریم خلیلی زاده ",
+  title: " ارتباط با من | مریم خلیلی  ",
   description: "ماساژ تخصصی کرمان",
   icons: {
     icon: "/public/img/",
@@ -782,15 +782,15 @@ const page = () => {
         <div className="contact_me flex flex-col mt-10 ">
           <div className="social flex items-center gap-5 text-[30px]">
             <FaPhone className="bg-[#D8BF91] p-2 text-[40px] text-[#fff]"/>
-            <span>09130571436 </span>
+            <span className="font-bold">09130571436 </span>
           </div>
           <div className="social flex items-center gap-5 text-[30px]">
           <CiInstagram className="bg-[#D8BF91] p-2 text-[40px] text-[#fff]"/>
-          <span>mari_khalily</span>
+          <span className="font-bold">mari_khalily</span>
           </div>
           <div className="social flex items-center gap-5 text-[30px]">
           <FaTelegram className="bg-[#D8BF91] p-2 text-[40px] text-[#fff]"/>
-          <span>Maryam_kh1370@</span>
+          <span className="font-bold">Maryam_kh1370@</span>
           </div>
         </div>
       </main>

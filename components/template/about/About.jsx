@@ -5,7 +5,7 @@ const About = () => {
   const skills = [
     { id: 1, text: "ماساژ رویای آرامش" },
     { id: 2, text: "ماساژ آروماتراپی" },
-    { id: 3, text: "ماساژ رویای آرامش" },
+    { id: 3, text: "ماساژ آرامش همراه سنگ داغ" },
     { id: 4, text: "ماساژ گل کویر" },
     { id: 5, text: "تای ماساژ" },
     { id: 6, text: "ماساژ جوانساز صورت" },
@@ -29,10 +29,10 @@ const About = () => {
         </div>
         <div className="content_about flex flex-col leading-10 w-[700px] max-md:w-full max-md:p-2 lg:w-[60%]">
           <h3 className="text-[50px] font-bold mb-10">درباره من</h3>
-          <h1 className="text-[30px] font-bold">مریم خلیلی زاده </h1>
+          <h1 className="text-[30px] font-bold">مریم خلیلی  </h1>
           <p className="font-bold">کارشناسی تربیت بدنی </p>
-          <p className="font-bold text-justify max-md:text-[15px]">
-            “من به عنوان یک ماساژور حرفه ای با بیش از 4 سال تجربه در زمینه ماساژ
+          <p className="text-[14px] font-extrabold text-justify max-md:text-[13px]">
+            “من به عنوان یک ماسور حرفه ای با بیش از 4 سال تجربه در زمینه ماساژ
             درمانی و ریلکسیشن، همواره تلاش کرده‌ام تا با استفاده از تکنیک‌های
             مدرن و سنتی، به بهبود سلامت جسمی و روحی مراجعین خود کمک کنم. من به
             دقت به نیازهای هر فرد توجه می‌کنم و برنامه‌های ماساژ شخصی‌سازی شده
