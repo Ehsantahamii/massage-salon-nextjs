@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <div className=" mt-14 mb-14 ">
-      <svg className="w-full"
+      {/* <svg className="w-full"
         width="1280"
         height="1452"
         viewBox="0 0 1280 1452"
@@ -112,7 +112,7 @@ const Services = () => {
             <stop offset="1" stop-color="#A5845A" />
           </linearGradient>
         </defs>
-      </svg>
+      </svg> */}
     </div>
   );
 };

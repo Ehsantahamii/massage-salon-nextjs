@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <main className=" w-full mt-14">
+    <div className=" w-full mt-14">
       <div className="hero_page flex justify-between items-center max-md:flex-col max-md:gap-5">
         <h1 className="w-[260px]  text-center font-bold text-[23px] mt-[-27rem] max-xl:mt-0 max-lg:mt-[-30rem] max-md:mt-0 max-md:w-full">
           اینجا قراره عاشق ماساژ بشی.
@@ -143,7 +143,7 @@ const Hero = () => {
           className="w-full mt-[-80px] max-md:mt-[-400px]"
         />
       </div>
-    </main>
+    </div>
   );
 };
 
