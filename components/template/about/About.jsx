@@ -49,7 +49,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

@@ -1,4 +1,3 @@
-/* From Uiverse.io by MuhammadHasann */
 button {
   position: relative;
   padding: 15px 45px;
@@ -23,6 +22,11 @@ button:hover {
     #fac39c
   );
   animation: wind 2s ease-in-out infinite;
+  -webkit-animation: wind 2s ease-in-out infinite;
+}
+button:hover.icon-1 {
+  animation: unset;
+  -webkit-animation: unset;
 }
 
 @keyframes wind {
