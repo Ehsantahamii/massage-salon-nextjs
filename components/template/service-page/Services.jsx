@@ -7,7 +7,7 @@ import Image from "next/image";
 const Services = () => {
  
   return (
-    <div className="service mt-14 mb-14 ">
+    <div className="service mt-14 mb-14 " id="service">
       <div className="content_service relative">
         <main className="w-full">
           <div className="title text-center">

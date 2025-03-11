@@ -28,9 +28,9 @@ const Navbar = () => {
               : "menu flex gap-[40px] items-center    max-[768px]:hidden"
           }>
             <li><Link href="/" className="text-[20px] font-bold" onClick={nulls}>صفحه اصلی</Link></li>
-            <li><Link href="/" className="text-[20px] font-bold" onClick={nulls}>خدمات</Link></li>
+            <li><Link href="#service" className="text-[20px] font-bold" onClick={nulls}>خدمات</Link></li>
             <li><Link href="/contact-me" className="text-[20px] font-bold" onClick={nulls}>ارتباط با من</Link></li>
-            <li><Link href="/" className="text-[20px] font-bold" onClick={nulls}>بلاگ</Link></li>
+            <li><Link href="/blog" className="text-[20px] font-bold" onClick={nulls}>بلاگ</Link></li>
         </ul>
         {/* phone */}
         <div className="phone flex items-center gap-3 max-md:hidden">
