@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar flex justify-between items-center my-[25px]">
         {/* logo */}
-        <div className="logo_nav"><Image src="/img/logo.png" width={140} height={150} className=""/></div>
+        <div className="logo_nav"><Image src="/img/logo.png" width={140} height={150} alt="menu-vector" className=""/></div>
         {/* menu */}
         <div
           className="nav_toogle flex-1 mr-5 md:hidden cursor-pointer  text-[25px] text-[#2a2a2a]"
