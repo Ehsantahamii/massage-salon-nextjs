@@ -1,0 +1,11 @@
+{
+    
+    "articles":{
+        "id":1,
+        "picture":"/img/img-hero.jpg",
+        "title":"ماساژ چیست؟",
+        "caption":"سلام",
+        "readme":"ادامه مطلب"
+    }
+    
+}
