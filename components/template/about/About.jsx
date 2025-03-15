@@ -17,7 +17,7 @@ const About = () => {
     { id: 12, text: "ماساژ هربال" },
   ];
   return (
-    <div className="w-full my-14 max-md:mt-[-150px] ">
+    <div className="w-full my-14 max-md:mt-[-150px]" data-aos="fade-up">
       <div className="about flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-8 ">
         <div className="img_about w-[80%] mx-auto lg:w-[40%] relative">
           <svg className="absolute z-[-1]" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">                    <defs>                         <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                            <stop id="stop1" stop-color="rgba(57, 122, 192, 1)" offset="0%"></stop>                            <stop id="stop2" stop-color="rgba(20.404, 66.885, 116.941, 1)" offset="100%"></stop>                        </linearGradient>                    </defs>                <path fill="url(#sw-gradient)" d="M33.5,-19.3C39.3,-9.2,37.1,5.5,30.2,16C23.3,26.5,11.7,32.8,0.5,32.5C-10.6,32.2,-21.3,25.3,-27.3,15.3C-33.4,5.3,-34.9,-7.9,-29.6,-17.7C-24.3,-27.4,-12.1,-33.8,0.8,-34.3C13.8,-34.8,27.6,-29.4,33.5,-19.3Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" stroke="url(#sw-gradient)"></path>              </svg>

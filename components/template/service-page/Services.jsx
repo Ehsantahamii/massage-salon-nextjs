@@ -5,12 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Services = () => {
- 
+
   return (
     <div className="service mt-14 mb-14 " id="service">
       <div className="content_service relative">
-        <main className="w-full">
-          <div className="title text-center">
+        <div className="w-full">
+          <div className="title text-center" data-aos="fade-up">
             <h1 className="text-[50px] font-bold">انواع خدمات</h1>
           </div>
           <div className="content w-full  mt-5">
@@ -20,7 +20,7 @@ const Services = () => {
             <h1 className="text-[35px] font-bold mb-5 max-md:text-[22px] max-md:mb-1">برای رزرو نوبت فقط کافیه کلیک کنید</h1>
             <Link href="/" className="bt_reserv">رزرو نوبت</Link>
           </div>
-        </main>
+        </div>
       </div>
     </div>
   );

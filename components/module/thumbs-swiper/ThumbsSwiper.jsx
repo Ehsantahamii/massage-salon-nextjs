@@ -167,8 +167,8 @@ const ThumbsSwiper = () => {
 
             <Swiper
                 autoplay={{
-                    delay: 1200,
-                    disableOnInteraction: false,
+                    delay: 6500,
+                    disableOnInteraction: true,
                 }}
                 dir="rtl"
                 slidesPerView={2}
