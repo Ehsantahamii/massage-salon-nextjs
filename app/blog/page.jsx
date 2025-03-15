@@ -14,11 +14,11 @@ const Blog = () => {
             </Link>
           </div>
         </div>
-        <div className="title_home flex items-center  w-[1000px] max-lg:w-[550px] max-md:w-[250px] mt-10 mx-auto">
+        <div className="title_home flex items-center   mt-10 mx-auto">
           <h3 className="text-[25px] font-bold">دسته بندی</h3>
           <img src="/img/Vectors_blog.svg" className="w-[30px]" />
         </div>
-        <div className=" content_blog w-[1000px]  mx-auto mt-8 mb-8 max-lg:w-[550px] max-md:w-[250px]">
+        <div className=" content_blog   mx-auto mt-8 mb-8  ">
           <Itemsblog />
         </div>
       </main>

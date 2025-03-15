@@ -167,7 +167,7 @@ const ThumbsSwiper = () => {
 
             <Swiper
                 autoplay={{
-                    delay: 2500,
+                    delay: 1200,
                     disableOnInteraction: false,
                 }}
                 dir="rtl"

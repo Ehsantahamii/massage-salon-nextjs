@@ -13,7 +13,7 @@ const font = localFont({
   ],
 });
 export const metadata = {
-  title: "مریم خلیلی   | ماساژ",
+  title: "مرکز تخصصی ماساژ | مریم خلیلی ",
   description: "ماساژ تخصصی کرمان",
 };
 

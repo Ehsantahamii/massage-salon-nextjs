@@ -112,7 +112,7 @@ const Items_services = () => {
               <span className="font-bold">
                 {index.price}
               </span>
-              <img src={index.imgprice} className="w-[50px]" />
+              <img src={index.imgprice} className="w-[30px]" />
             </div>
           </div>
         ))}
