@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ReserveBtn = () => {
     return (
-        <StyledWrapper>
+        <StyledWrapper data-aos="fade-up">
             <button>
                 وقت خود را رزرو کنید
                 <div className="icon-1">
