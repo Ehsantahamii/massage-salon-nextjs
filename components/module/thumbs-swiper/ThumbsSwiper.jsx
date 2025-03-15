@@ -315,7 +315,7 @@ const ThumbsSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full flex ">
-                        <div cclassName="w-0 lg:w-1/4 "></div>
+                        <div className="w-0 lg:w-1/4 "></div>
                         <p className="max-w-[950px]w-[95%] mx-auto lg:w-3/4 p-2 max-md:text-[15px]">
                             ماساژ یکی از راه‌های طبیعی برای رفع بی‌خوابی و بهبود کیفیت خواب
                             است. هنگام ماساژ، بدن وارد وضعیت پاراسمپاتیک می‌شود که یک حالت
@@ -341,7 +341,7 @@ const ThumbsSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full flex ">
-                        <div cclassName="w-0 lg:w-1/4 "></div>
+                        <div className="w-0 lg:w-1/4 "></div>
                         <p className="max-w-[950px] lg:pr-[10rem] w-[95%] mx-auto lg:w-3/4 p-2 max-md:text-[15px]">
                             ماساژ به دلیل افزایش جریان خون و کاهش التهاب در مفاصل، به بهبود
                             دامنه حرکتی و انعطاف‌پذیری بدن کمک می‌کند. همچنین، ماساژ باعث ترشح
