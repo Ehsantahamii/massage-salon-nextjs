@@ -12,7 +12,7 @@ const Itemsblog = () => {
             height={100}
             className="w-[400px]"
           />
-          <div className="titles   font-bold text-[18px] text-center bg-[#D8BF91] px-5 py-2">
+          <div className="titles font-bold text-[18px] text-center bg-[#D8BF91] px-5 py-2">
             <h3>ماساژ: فواید، انواع و راهنمای کامل دریافت بهترین تجربه</h3>
           </div>
         </Link>

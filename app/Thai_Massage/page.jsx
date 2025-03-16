@@ -2,7 +2,7 @@ export const metadata = {
     title: " ماساژ  تایلندی   | مریم خلیلی",
     description: "ماساژ  تایلندی ",
   };
-  const thai_massage = () => {
+  const ThaiMassage = () => {
     return (
       <div>
         {/* img */}
@@ -57,5 +57,5 @@ export const metadata = {
     );
   };
   
-  export default thai_massage;
+  export default ThaiMassage;
   

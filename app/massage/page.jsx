@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "ماساژ یکی از قدیمی‌ترین روش‌های درمانی و ریلکسیشن در جهان است که قرن‌ها در فرهنگ‌های مختلف برای کاهش استرس، بهبود جریان خون و تسکین دردهای عضلانی استفاده شده است",
 };
-const massage = () => {
+const Massage = () => {
   return (
     <main className="mt-14 mb-14">
       {/* img */}
@@ -168,4 +168,4 @@ const massage = () => {
   );
 };
 
-export default massage;
+export default Massage;
