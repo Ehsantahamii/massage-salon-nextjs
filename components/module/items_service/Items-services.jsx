@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-const Items_services = () => {
+const ItemsServices = () => {
   const itemsService = [
     {
       id: 1,
@@ -122,4 +122,4 @@ const Items_services = () => {
   );
 };
 
-export default Items_services;
+export default ItemsServices;
