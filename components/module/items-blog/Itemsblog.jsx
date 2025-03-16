@@ -3,21 +3,35 @@ import Link from "next/link";
 
 const Itemsblog = () => {
   return (
-    <div className="flex justify-between items-center gap-5 mt-20 max-md:flex-col">
-      <div className="box  w-[50%] h-[200px] z-10 flex justify-center items-center max-md:w-full">
+    <div className="flex justify-around items-center   gap-5 mt-20 max-md:flex-col">
+      <div className="box   h-[200px] z-10 flex justify-center items-center max-md:w-full">
         <Link href="/massage">
           <Image
             src="/img/artic1.jpg"
-            width={100}
-            height={100}
+            width={600}
+            height={600}
             className="w-[400px]"
           />
-          <div className="titles   font-bold text-[18px] text-center bg-[#D8BF91] px-5 py-2">
+          <div className="titles  w-[400px] font-bold text-[16px] text-center bg-[#D8BF91] px-5 py-2">
             <h3>ماساژ: فواید، انواع و راهنمای کامل دریافت بهترین تجربه</h3>
           </div>
         </Link>
       </div>
-      <div className="box bg-blue-300 w-[50%] h-[200px] z-10"></div>
+      <div className="box    z-10">
+        <Link href="/Toksentorapi">
+          <Image
+            src="/img/toksen.jpg"
+            width={600}
+            height={600}
+            className="w-[400px]"
+          />
+          <div className="titles w-[400px] font-bold text-[16px] text-center bg-[#D8BF91] px-5 py-2">
+            <h3>
+              توکسن تراپی : راهکاری نوین برای سم‌زدایی بدن و بهبود سلامت
+            </h3>
+          </div>
+        </Link>
+      </div>
     </div>
   );
 };
