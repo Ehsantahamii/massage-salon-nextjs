@@ -5,13 +5,14 @@ export default function NotFound() {
   return (
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-12 mt-5 mb-5">
+        <div class="col-sm-12 col-md-12 mt-14 mb-14">
           <svg
             width="100%"
             height="auto"
             viewBox="0 0 636 324"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="m-auto w-[50%] max-md:w-[100%]"
           >
             <g id="OBJECTS">
               <g id="Group">

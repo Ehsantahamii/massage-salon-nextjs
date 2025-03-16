@@ -1,6 +1,9 @@
 import Itemsblog from "@/components/module/items-blog/Itemsblog";
 import Link from "next/link";
-
+export const metadata = {
+  title: "وبلاگ | مرکز تخصصی ماساژ مریم خلیلی ",
+  description: "ماساژ تخصصی کرمان",
+};
 const Blog = () => {
   return (
     <div className="weblog w-full m-auto">

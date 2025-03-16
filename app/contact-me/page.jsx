@@ -5,7 +5,7 @@ import { CiInstagram } from "react-icons/ci";
 import { FaTelegram } from "react-icons/fa";
 
 export const metadata = {
-  title: " ارتباط با من | مریم خلیلی  ",
+  title: " ارتباط با من | مرکز تخصصی ماساژ مریم خلیلی  ",
   description: "ماساژ تخصصی کرمان",
   icons: {
     icon: "/public/img/",
@@ -13,9 +13,9 @@ export const metadata = {
 };
 const page = () => {
   return (
-    <main className="container flex justify-between items-center mb-14 mt-14 max-md:flex-col">
+    <main className="container w-[1280px] flex justify-between items-center mb-14 mt-14 max-md:flex-col max-md:w-full ">
       <svg
-        className="w-[50%] max-md:w-[340px]"
+        className="w-[50%] max-md:w-[300px] mx-auto"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 790 563"
         fill="none"
@@ -772,12 +772,9 @@ const page = () => {
           </g>
         </g>
       </svg>
-      <main className="form flex flex-col w-[500px] max-lg:w-[300px] max-md:w-full max-md:mt-10 max-md:p-5">
+      <div className="form flex flex-col w-[500px] max-lg:w-[300px] max-md:w-full max-md:mt-10 max-md:p-5">
         <div className="title flex justify-between items-center">
           <h1 className="text-[35px] font-bold max-lg:text-[25px]">راه های ارتباط با من</h1>
-          <Link href="/" className="text-[#D8BF91] font-bold">
-            صفحه اصلی
-          </Link>
         </div>
         <div className="contact_me flex flex-col mt-10 ">
           <div className="social flex items-center gap-5 text-[30px]">
@@ -793,7 +790,7 @@ const page = () => {
           <span className="font-bold">Maryam_kh1370@</span>
           </div>
         </div>
-      </main>
+      </div>
     </main>
   );
 };

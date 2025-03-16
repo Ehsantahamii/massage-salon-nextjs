@@ -9,6 +9,12 @@ const Massage = () => {
   return (
     <main className="mt-14 mb-14">
       {/* img */}
+      <Image
+        src="/img/artic1.jpg"
+        width={600}
+        height={600}
+        className="lg:w-[700px] mx-auto mb-5"
+      />
       <div className="title flex flex-col">
         <h1 className="text-[30px] font-bold">
           ماساژ: فواید، انواع و راهنمای کامل دریافت بهترین تجربه
@@ -151,7 +157,9 @@ const Massage = () => {
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
           <h2 className="text-[25px] font-bold mb-1">لینک‌های مرتبط</h2>
-          <li className="text-[18px] font-bold text-blue-600"><Link href="/">توکسن تراپی</Link></li>
+          <li className="text-[18px] font-bold text-blue-600">
+            <Link href="Toksentorapi">توکسن تراپی</Link>
+          </li>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
@@ -162,6 +170,20 @@ const Massage = () => {
             می‌توانید از این روش برای کاهش استرس، افزایش انعطاف‌پذیری و بهبود
             کیفیت زندگی خود استفاده کنید.
           </p>
+          <br />
+          <hr className="border-1 border-[#2a2a2a]" />
+          <br />
+          <h2 className="text-[20px] font-bold">
+            📢 برای اطلاعات بیشتر و رزرو جلسه ماساژ،
+            <Link href="/" className="text-[20px] font-bold text-blue-600">
+              نوبت خود را رزرو کنید
+            </Link>
+            یا از
+            <Link href="/" className="text-[20px] font-bold text-blue-600">
+              خدمات ما
+            </Link>
+            ما دیدن کنید!
+          </h2>
         </div>
       </div>
     </main>
