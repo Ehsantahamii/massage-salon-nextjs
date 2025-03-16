@@ -2,7 +2,7 @@ export const metadata = {
   title: " ماساژ سوئدی   | مریم خلیلی",
   description: "ماساژ سوئدی ",
 };
-const Swedish_Massage = () => {
+const SwedishMassage = () => {
   return (
     <div>
       {/* img */}
@@ -55,4 +55,4 @@ const Swedish_Massage = () => {
   );
 };
 
-export default Swedish_Massage;
+export default SwedishMassage;

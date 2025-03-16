@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-const Items_services = () => {
+const ItemsServices = () => {
   const itemsService = [
     {
       id: 1,
@@ -103,6 +103,7 @@ const Items_services = () => {
       <div className="content w-full m-auto gap-5 flex justify-between items-center flex-wrap ">
         {itemsService.map((index) => (
           <div
+            data-aos="fade-up"
             key={index.id}
             className="content bg-white w-[30%]   rounded-xl flex flex-col p-3  max-md:w-full"
           >
@@ -121,4 +122,4 @@ const Items_services = () => {
   );
 };
 
-export default Items_services;
+export default ItemsServices;
