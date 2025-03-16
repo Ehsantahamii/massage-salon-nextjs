@@ -16,7 +16,7 @@ const Services = () => {
           <div className="content w-full mt-5">
             <ItemsServices />
           </div>
-          <div className="title_reserv flex flex-col justify-center items-center mt-[45px]" data-aos="fade-up"> 
+          <div className="title_reserv flex flex-col justify-center items-center mt-[45px]" data-aos="fade-up" data-aos-anchor-placement="top">
             <h1 className="text-[35px] font-bold mb-5 max-md:text-[22px] max-md:mb-1">برای رزرو نوبت فقط کافیه کلیک کنید</h1>
             <Link href="/" className="bt_reserv">رزرو نوبت</Link>
           </div>
