@@ -2,7 +2,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar/Navbar";
 import Footer from "@/components/layout/footer/Footer";
-import Aos from "@/helper/aos";
 
 const font = localFont({
   src: [
@@ -22,7 +21,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
       <body className={`${font.className} overflow-x-hidden`}>
-        <Aos />
         <Navbar />
         {children}
         <Footer />
