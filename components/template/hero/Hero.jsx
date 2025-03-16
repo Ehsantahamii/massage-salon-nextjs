@@ -22,7 +22,7 @@ const Hero = () => {
         ارائه بهترین و با کیفیت ترین خدمات ماساژ
 
       </p>
-      <div className=" w-full py-8 flex flex-col items-center justify-center" data-aos="fade-up">
+      <div className=" w-full py-8 flex flex-col items-center justify-center">
         <p className="text-center font-bold text-[23px] py-4 max-w-[600px]">
           برای یک برگشتن به یک زندگی عالی با یک ماساژ عالی تر آماده هستی ؟
 

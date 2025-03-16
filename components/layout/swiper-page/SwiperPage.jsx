@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 const SwiperPage = () => {
   AOS.init();
   return (
-    <div data-aos="fade-up" >
+    <div >
       <ThumbsSwiper />
     </div>
   );

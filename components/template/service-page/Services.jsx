@@ -10,7 +10,7 @@ const Services = () => {
     <div className="service mt-14 mb-14 " id="service">
       <div className="content_service relative">
         <div className="w-full">
-          <div className="title text-center" data-aos="fade-up">
+          <div className="title text-center">
             <h1 className="text-[50px] font-bold">انواع خدمات</h1>
           </div>
           <div className="content w-full  mt-5">
