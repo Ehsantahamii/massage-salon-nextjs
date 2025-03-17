@@ -146,7 +146,12 @@ const toksentorapi = () => {
           <h2 className="text-[25px] font-bold mb-1">لینک‌های مرتبط</h2>
           <li className="text-[18px] font-bold text-blue-600">
             <Link href="/Massage">
-              ماساژ: فواید، انواع و راهنمای کامل دریافت بهترین تجربه{" "}
+              ماساژ: فواید، انواع و راهنمای کامل دریافت بهترین تجربه
+            </Link>
+          </li>
+          <li className="text-[18px] font-bold text-blue-600">
+            <Link href="/Massage-off-fitness">
+              نقش ماساژ در کاهش وزن و تناسب اندام
             </Link>
           </li>
           <br />
@@ -164,8 +169,15 @@ const toksentorapi = () => {
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
           <h2 className="text-[20px] font-bold">
-            📢 برای اطلاعات بیشتر و رزرو جلسه ماساژ، <Link href="/" className="text-[20px] font-bold text-blue-600">نوبت خود را رزرو کنید</Link> یا از
-            <Link href="/" className="text-[20px] font-bold text-blue-600">خدمات ما</Link> ما دیدن کنید!
+            📢 برای اطلاعات بیشتر و رزرو جلسه ماساژ،{" "}
+            <Link href="/" className="text-[20px] font-bold text-blue-600">
+              نوبت خود را رزرو کنید
+            </Link>{" "}
+            یا از
+            <Link href="/" className="text-[20px] font-bold text-blue-600">
+              خدمات ما
+            </Link>{" "}
+            ما دیدن کنید!
           </h2>
         </div>
       </div>

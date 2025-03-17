@@ -126,7 +126,7 @@ const Massage = () => {
             پس از فعالیت‌های بدنی شدید جهت بهبود ریکاوری عضلات
           </li>
           <li className="text-[18px]  text-[#383838]">
-            قبل از خواب برای کمک به داشتن خوابی عمیق و راحت{" "}
+            قبل از خواب برای کمک به داشتن خوابی عمیق و راحت
           </li>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
@@ -158,7 +158,12 @@ const Massage = () => {
           <br />
           <h2 className="text-[25px] font-bold mb-1">لینک‌های مرتبط</h2>
           <li className="text-[18px] font-bold text-blue-600">
-            <Link href="Toksentorapi">توکسن تراپی</Link>
+            <Link href="/Toksentorapi">توکسن تراپی</Link>
+          </li>
+          <li className="text-[18px] font-bold text-blue-600">
+            <Link href="/Massage-off-fitness">
+              نقش ماساژ در کاهش وزن و تناسب اندام
+            </Link>
           </li>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
