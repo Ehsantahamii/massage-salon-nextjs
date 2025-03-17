@@ -2,6 +2,8 @@
 import { gsap } from 'gsap/gsap-core';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
+import Lenis from '@studio-freight/lenis'
+
 const MovingText = () => {
     useGSAP(() => {
         gsap.registerPlugin(ScrollTrigger);
@@ -16,9 +18,14 @@ const MovingText = () => {
                 speed: 1,
                 effects: true,
                 pin: true,
+                animate: true
             },
         });
     });
+    // const lenis = new Lenis();
+    // lenis.on('scroll', ScrollTrigger.update);
+    // gsap.ticker.add((time) => { lenis.raf(time * 3000); });
+    // gsap.ticker.lagSmoothing(0);
     return (
         <img
             src="/img/MASSAGE.svg"

@@ -1,6 +1,10 @@
-import MovingText from "@/components/module/movingtext/MovingText";
+// import MovingText from "@/components/module/movingtext/MovingText";
 import ReserveBtn from "@/components/module/resrevebtn/ReserveBtn";
+import dynamic from "next/dynamic";
 import Image from "next/image";
+const MovingText = dynamic(() => import('@/components/module/movingtext/MovingText'), {
+  ssr: false,
+})
 
 const Hero = () => {
   return (
