@@ -47,6 +47,21 @@ const Itemsblog = () => {
           </div>
         </Link>
       </div>
+      <div className="box  w-[400px]  z-10 flex justify-center items-center max-md:w-full">
+        <Link href="/Ancient-massage">
+          <Image
+            src="/img/article3.webp"
+            width={600}
+            height={600}
+            className="w-[400px]"
+          />
+          <div className="titles  font-bold text-[16px] text-center bg-[#D8BF91] px-5 py-2">
+            <h3>
+            نقش ماساژ در فرهنگ‌های باستانی: تاریخچه، روش‌ها و تأثیرات
+            </h3>
+          </div>
+        </Link>
+      </div>
     </main>
   );
 };

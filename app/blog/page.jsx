@@ -17,7 +17,7 @@ const Blog = () => {
             </Link>
           </div>
         </div>
-        <div className="title_home flex items-center   mt-10 mx-auto">
+        <div className="title_home flex items-center max-w-[1070px]  mt-10 mx-auto">
           <h3 className="text-[25px] font-bold">دسته بندی</h3>
           <img src="/img/Vectors_blog.svg" className="w-[30px]" />
         </div>
@@ -26,9 +26,9 @@ const Blog = () => {
         </div>
       </main>
       <img
-        src="/img/Vector_blog.svg"
+        src="/img/Vector-itemsblog.svg"
         alt=""
-        className="w-[1528px] mt-[-95rem] max-lg:mt-[-65rem] max-md:hidden"
+        className="w-[1528px] mt-[-60rem] max-lg:hidden"
       />
     </div>
   );

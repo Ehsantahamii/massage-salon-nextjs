@@ -154,6 +154,11 @@ const toksentorapi = () => {
               نقش ماساژ در کاهش وزن و تناسب اندام
             </Link>
           </li>
+          <li className="text-[18px] font-bold text-blue-600">
+            <Link href="/Ancient-massage">
+            نقش ماساژ در فرهنگ‌های باستانی: تاریخچه، روش‌ها و تأثیرات
+            </Link>
+          </li>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
