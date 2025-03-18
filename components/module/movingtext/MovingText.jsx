@@ -22,10 +22,6 @@ const MovingText = () => {
             },
         });
     });
-    // const lenis = new Lenis();
-    // lenis.on('scroll', ScrollTrigger.update);
-    // gsap.ticker.add((time) => { lenis.raf(time * 3000); });
-    // gsap.ticker.lagSmoothing(0);
     return (
         <img
             src="/img/MASSAGE.svg"

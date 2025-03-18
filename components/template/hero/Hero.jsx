@@ -10,18 +10,18 @@ const Hero = () => {
   return (
     <section className="hero h-[92%] flex flex-col justify-center lg:w-full mx-auto relative pt-16">
       <div className="w-full relative">
-        <Image src="/img/img-hero.jpg" className="rounded-[50px] w-[75%] max-w-[600px] mx-auto  max-h-[580px]" width={800} height={580} alt="massage-hero-img" />
+        <Image src="/img/img-hero.jpg" className="rounded-[50px] w-[75%] max-w-[600px] mx-auto  max-h-[580px]"  data-aos="fade" width={800} height={580} alt="massage-hero-img" />
         <MovingText />
         {/* <Image src="/img/MASSAGE.svg" className="w-[90vw] lg:w-[85vw] mx-auto mt-[-6.5rem]" width={800} height={580} alt="massage-hero-img" /> */}
       </div>
 
-      <div className="absolute hidden lg:flex max-w-[150px] top-0 left-0  flex-col items-center justify-center">
+      <div className="absolute hidden lg:flex max-w-[150px] top-0 left-0  flex-col items-center justify-center" data-aos="fade-up">
         <Image src="/img/left-hero-img.png" className="w-[150px]" width={186} height={294} alt="massage-hero-img" />
         <p className="font-bold text-center">
           برای یک برگشتن به یک زندگی عالی با یک ماساژ عالی تر آماده هستی ؟
         </p>
       </div>
-      <p className="absolute hidden lg:flex top-2 text-lg right-0 font-bold max-w-[150px] text-center">
+      <p className="absolute hidden lg:flex top-2 text-lg right-0 font-bold max-w-[150px] text-center" data-aos="fade-up">
         اینجا قراره عاشق ماساژ بشی.
         ارائه بهترین و با کیفیت ترین خدمات ماساژ
 

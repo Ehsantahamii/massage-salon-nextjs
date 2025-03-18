@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/navbar/Navbar";
 import Footer from "@/components/layout/footer/Footer";
 import Aos from "@/helper/aos";
+import LenisConfig from "@/helper/lenis";
 
 const font = localFont({
   src: [
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
     <html lang="fa" dir="rtl">
       <body className={`${font.className} overflow-x-hidden`}>
         <Aos />
+        <LenisConfig />
         <Navbar />
         {children}
         <Footer />

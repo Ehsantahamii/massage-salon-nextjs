@@ -30,7 +30,7 @@ const Navbar = () => {
             <li><Link href="/" className="text-[20px] font-bold " onClick={nulls}>صفحه اصلی</Link></li>
             <li><Link href="/#service" className="text-[20px] font-bold " onClick={nulls}>خدمات</Link></li>
             <li><Link href="/contact-me" className="text-[20px] font-bold " onClick={nulls}>ارتباط با من</Link></li>
-            <li><Link href="/blog" className="text-[20px] font-bold " onClick={nulls}>بلاگ</Link></li>
+            <li><Link href="/blog" className="text-[20px] font-bold " onClick={nulls}>مجله</Link></li>
         </ul>
         {/* phone */}
         <div className="phone flex items-center gap-3 max-md:hidden">

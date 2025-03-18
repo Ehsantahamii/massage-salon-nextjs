@@ -19,7 +19,7 @@ const Blog = () => {
         </div>
         <div className="title_home flex items-center max-w-[1070px]  mt-10 mx-auto">
           <h3 className="text-[25px] font-bold">دسته بندی</h3>
-          <img src="/img/Vectors_blog.svg" className="w-[30px]" />
+          <img src="/img/Vectors_blog.svg" className="w-[20px]" />
         </div>
         <div className=" content_blog   mx-auto mt-8 mb-8  ">
           <Itemsblog />

@@ -7,7 +7,7 @@ import Image from "next/image";
 const Services = () => {
 
   return (
-    <div className="service mt-14 mb-14 " id="service">
+    <div className="service py-14 " id="service">
       <div className="content_service relative">
         <div className="w-full">
           <div className="title text-center" data-aos="fade-up">
