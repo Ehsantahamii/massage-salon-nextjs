@@ -5,7 +5,7 @@ const Itemsblog = () => {
   return (
     <main className="flex justify-around items-center  flex-wrap gap-16  max-md:flex-col max-lg:gap-14 max-md:gap-14">
       <div className="box w-[400px]  z-10 flex justify-center items-center max-md:w-full">
-        <Link href="/Massage">
+        <Link href="/massage">
           <Image
             src="/img/artic1.jpg"
             width={600}

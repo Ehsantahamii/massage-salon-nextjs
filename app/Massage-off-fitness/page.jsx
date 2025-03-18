@@ -158,7 +158,7 @@ const toksentorapi = () => {
           <br />
           <h2 className="text-[25px] font-bold mb-1">لینک‌های مرتبط</h2>
           <li className="text-[18px] font-bold text-blue-600">
-            <Link href="/Massage">
+            <Link href="/massage">
               ماساژ: فواید، انواع و راهنمای کامل دریافت بهترین تجربه
             </Link>
           </li>
