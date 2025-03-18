@@ -2,7 +2,6 @@
 import { gsap } from 'gsap/gsap-core';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
-import Lenis from '@studio-freight/lenis';
 
 const MovingText = () => {
     useGSAP(() => {

@@ -1,10 +1,8 @@
 "use client";
 import Lenis from "lenis";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 
 const LenisConfig = () => {
-  // const lenis = useRef(null);
-
   useEffect(() => {
     const lenis = new Lenis();
     function raf(time) {
@@ -13,8 +11,8 @@ const LenisConfig = () => {
     }
     requestAnimationFrame(raf);
   }, []);
+
   return <></>;
 };
 
 export default LenisConfig;
-
