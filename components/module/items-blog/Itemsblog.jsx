@@ -62,6 +62,36 @@ const Itemsblog = () => {
           </div>
         </Link>
       </div>
+      <div className="box  w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
+        <Link href="/Chronic-pains">
+          <Image
+            src="/img/Chronic-pains.avif"
+            width={600}
+            height={600}
+            className="w-[400px] rounded-lg"
+          />
+          <div className="titles  font-bold text-[16px] text-right bg-[#d8bf91d5]  rounded-sm  absolute bottom-4 px-5 py-2  max-w-[70%]">
+            <h3>
+            تأثیر ماساژ درمانی بر کاهش دردهای مزمن
+            </h3>
+          </div>
+        </Link>
+      </div>
+      <div className="box  w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
+        <Link href="/Thai-massage-and-Swedish-massage">
+          <Image
+            src="/img/photo-1671492241804-c0e02f668bc1.avif"
+            width={600}
+            height={600}
+            className="w-[400px] rounded-lg"
+          />
+          <div className="titles  font-bold text-[16px] text-right bg-[#d8bf91d5]  rounded-sm  absolute bottom-4 px-5 py-2  max-w-[70%]">
+            <h3>
+            تفاوت بین ماساژ تایلندی و ماساژ سوئدی: کدام یک برای شما مناسب‌تر است؟
+            </h3>
+          </div>
+        </Link>
+      </div>
     </section>
   );
 };

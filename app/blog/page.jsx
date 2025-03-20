@@ -25,11 +25,11 @@ const Blog = () => {
           <Itemsblog />
         </div>
       </main>
-      <img
+      {/* <img
         src="/img/Vector-itemsblog.svg"
         alt=""
         className="w-[1528px] mt-[-60rem] max-lg:hidden"
-      />
+      /> */}
     </div>
   );
 };

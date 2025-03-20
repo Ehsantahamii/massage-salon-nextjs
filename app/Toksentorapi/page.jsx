@@ -159,6 +159,16 @@ const toksentorapi = () => {
             نقش ماساژ در فرهنگ‌های باستانی: تاریخچه، روش‌ها و تأثیرات
             </Link>
           </li>
+          <li className="text-[18px] font-bold text-blue-600">
+            <Link href="/Chronic-pains">
+            تأثیر ماساژ درمانی بر کاهش دردهای مزمن
+            </Link>
+          </li>
+          <li className="text-[18px] font-bold text-blue-600">
+            <Link href="/Thai-massage-and-Swedish-massage">
+            تفاوت بین ماساژ تایلندی و ماساژ سوئدی: کدام یک برای شما مناسب‌تر است؟
+            </Link>
+          </li>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
@@ -174,14 +184,14 @@ const toksentorapi = () => {
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
           <h2 className="text-[20px] font-bold">
-            📢 برای اطلاعات بیشتر و رزرو جلسه ماساژ،{" "}
+            📢 برای اطلاعات بیشتر و رزرو جلسه ماساژ،
             <Link href="/" className="text-[20px] font-bold text-blue-600">
               نوبت خود را رزرو کنید
-            </Link>{" "}
+            </Link>
             یا از
             <Link href="/" className="text-[20px] font-bold text-blue-600">
               خدمات ما
-            </Link>{" "}
+            </Link>
             ما دیدن کنید!
           </h2>
         </div>
