@@ -32,6 +32,21 @@ const Itemsblog = () => {
           </div>
         </Link>
       </div>
+      <div className="box w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
+        <Link href="/Thai-massage">
+          <Image
+            src="/img/thi-massage.webp"
+            width={600}
+            height={600}
+            className="w-[400px] rounded-lg"
+          />
+          <div className="titles  font-bold text-[16px] text-right bg-[#d8bf91d5]  rounded-sm  absolute bottom-4 px-5 py-2 max-w-[70%]">
+            <h3>
+            ماساژ تایلندی: تجربه‌ای عمیق برای آرامش و بهبود سلامتی
+            </h3>
+          </div>
+        </Link>
+      </div>
       <div className="box  w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
         <Link href="/Massage-off-fitness">
           <Image

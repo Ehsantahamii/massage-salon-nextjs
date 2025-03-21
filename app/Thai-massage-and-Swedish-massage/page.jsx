@@ -32,128 +32,147 @@ const Massage = () => {
         <hr className="border-1 border-[#2a2a2a]" />
         <br />
         <div className="caption">
-          <h2 className="text-[25px] font-bold mb-1">
-            فواید ماساژ برای بدن و ذهن
-          </h2>
-          <li className="text-[18px] font-bold"> کاهش استرس و اضطراب</li>
+          <h2 className="text-[25px] font-bold mb-1">ماساژ تایلندی چیست؟</h2>
           <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            ماساژ باعث کاهش سطح هورمون کورتیزول (هورمون استرس) و افزایش سطح
-            اندورفین و سروتونین (هورمون‌های شادی) در بدن می‌شود.
-          </p>
-          <li className="text-[18px] font-bold mt-2"> بهبود جریان خون</li>
-          <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            ماساژ با بهبود گردش خون، اکسیژن‌رسانی به بافت‌ها را افزایش داده و به
-            دفع سموم از بدن کمک می‌کند.
+            ماساژ تایلندی یک روش درمانی سنتی است که ریشه در طب سنتی تایلند و
+            یوگا دارد. در این روش، ماساژدهنده از فشار دست‌ها، انگشتان، زانوها،
+            آرنج و حتی پاها برای کشش عضلات و مفاصل استفاده می‌کند. ماساژ تایلندی
+            معمولاً روی یک سطح نرم مانند تشک انجام می‌شود و فرد دریافت‌کننده
+            لباس راحتی به تن دارد.
           </p>
           <li className="text-[18px] font-bold mt-2">
-            تسکین دردهای عضلانی و مفصلی
+            ویژگی‌های ماساژ تایلندی:
           </li>
           <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            فشارهای کنترل‌شده و تکنیک‌های خاص ماساژ می‌توانند گره‌های عضلانی را
-            باز کرده و دردهای عضلانی را کاهش دهند.
+            تمرکز بر حرکات کششی و یوگا
           </p>
-          <li className="text-[18px] font-bold mt-2">
-            افزایش انعطاف‌پذیری و کاهش تنش عضلانی
-          </li>
           <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            ماساژ مداوم باعث افزایش انعطاف‌پذیری مفاصل و کاهش گرفتگی عضلات
-            می‌شود.
+            استفاده از تکنیک‌های فشاری و کششی
           </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            عدم استفاده از روغن ماساژ
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            کمک به افزایش انعطاف‌پذیری بدن
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            بهبود گردش خون و کاهش تنش عضلانی
+          </p>
+          <h3 className="mt-3">
+            لینک‌ مرتبط :
+            <Link href="/Thai-massage" className="font-bold text-blue-600">
+              راهنمای کامل ماساژ تایلندی
+            </Link>
+          </h3>
+          <br />
+          <hr className="border-1 border-[#2a2a2a]" />
+          <br />
+          <h2 className="text-[25px] font-bold mb-1">ماساژ سوئدی چیست؟</h2>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            ماساژ سوئدی یکی از رایج‌ترین سبک‌های ماساژ در غرب است که هدف آن
+            آرامش بخشی و کاهش استرس است. در این روش، ماساژدهنده از حرکات طولانی
+            و ملایم همراه با روغن‌های ماساژ استفاده می‌کند تا عضلات را شل و گردش
+            خون را افزایش دهد.
+          </p>
+          <li className="text-[18px] font-bold mt-2">ویژگی‌های ماساژ سوئدی:</li>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            تمرکز بر آرامش و تسکین استرس
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            استفاده از حرکات نرم و روان
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            استفاده از روغن‌های ماساژ برای کاهش اصطکاک پوست
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            کاهش تنش عضلانی و افزایش آرامش ذهنی
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            بهبود گردش خون و تقویت عملکرد قلبی-عروقی
+          </p>
+          <h3 className="mt-3">
+            لینک‌ مرتبط :
+            <Link href="/" className="font-bold text-blue-600">
+              راهنمای کامل ماساژ سوئدی
+            </Link>
+          </h3>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
           <h2 className="text-[25px] font-bold mb-1">
-            انواع ماساژ و کاربردهای آن
+            کدام ماساژ برای شما مناسب‌تر است؟
           </h2>
-          <li className="text-[18px] font-bold"> ماساژ سوئدی</li>
           <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            یکی از رایج‌ترین انواع ماساژ که شامل حرکات نرم و ملایم برای کاهش
-            استرس و بهبود جریان خون است.
+            انتخاب بین ماساژ تایلندی و سوئدی بستگی به نیازهای شخصی و شرایط بدنی
+            شما دارد:
           </p>
-          <li className="text-[18px] font-bold mt-2">ماساژ تایلندی </li>
-          <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            یک ماساژ پویا و فعال که شامل کشش‌های عمیق و حرکات یوگایی برای افزایش
-            انعطاف‌پذیری است.
-          </p>
-          <li className="text-[18px] font-bold mt-2">ماساژ سنگ داغ</li>
-          <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            در این روش، سنگ‌های داغ بر روی نقاط خاص بدن قرار داده شده و ماساژ
-            ترکیبی از حرارت و فشار را ارائه می‌دهد.
-          </p>
-          <li className="text-[18px] font-bold mt-2">ماساژ شیاتسو</li>
-          <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            یک ماساژ ژاپنی که با فشار انگشتان روی نقاط انرژی بدن، تعادل و آرامش
-            را افزایش می‌دهد.
-          </p>
-          <li className="text-[18px] font-bold mt-2">
-            ماساژ دیپ تیشو (ماساژ بافت عمیق)
-          </li>
-          <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            برای ورزشکاران یا افرادی که دچار دردهای مزمن عضلانی هستند مناسب است
-            و به بهبود گرفتگی‌های عمیق عضلانی کمک می‌کند.
-          </p>
-          <li className="text-[18px] font-bold mt-2">ماساژ رفلکسولوژی </li>
-          <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            تمرکز این نوع ماساژ بر روی نقاط خاصی از کف پا، دست و گوش است که
-            ارتباط مستقیمی با سایر اندام‌های بدن دارند.
-          </p>
-          <br />
-          <hr className="border-1 border-[#2a2a2a]" />
-          <br />
-          <h2 className="text-[25px] font-bold mb-1">
-            انواع ماساژ و کاربردهای آن
-          </h2>
           <li className="text-[18px]  text-[#383838]">
-            تخصص و تجربه: همیشه یک ماساژور با مدارک معتبر و تجربه کافی را انتخاب
+            اگر به دنبال کاهش استرس و آرامش هستید: ماساژ سوئدی گزینه بهتری است.
+          </li>
+          <li className="text-[18px]  text-[#383838]">
+            اگر انعطاف‌پذیری بدنتان کم است و می‌خواهید عضلاتتان باز شوند: ماساژ
+            تایلندی توصیه می‌شود.
+          </li>
+          <li className="text-[18px]  text-[#383838]">
+            اگر مشکل در گردش خون دارید: هر دو روش مفیدند، اما ماساژ سوئدی تأثیر
+            بیشتری دارد.
+          </li>
+          <li className="text-[18px]  text-[#383838]">
+            اگر به ماساژهای پرتحرک و کششی علاقه دارید: ماساژ تایلندی را امتحان
             کنید.
           </li>
-          <li className="text-[18px]  text-[#383838]">
-            محیط ماساژ: فضای آرام، تمیز و بهداشتی برای یک تجربه بهتر بسیار مهم
-            است.
-          </li>
-          <li className="text-[18px]  text-[#383838]">
-            تکنیک مناسب: بر اساس نیازهای خود، نوع ماساژ مناسب را انتخاب کنید.
-          </li>
-          <li className="text-[18px]  text-[#383838]">
-            نظرات کاربران: بررسی تجربه دیگران می‌تواند به انتخاب شما کمک کند.
-          </li>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
-          <h2 className="text-[25px] font-bold mb-1">بهترین زمان برای ماساژ</h2>
-          <li className="text-[18px]  text-[#383838]">
-            بعد از یک روز پر استرس برای آرامش و تمدد اعصاب
+          <h2 className="text-[25px] font-bold mb-1">مزایا و معایب هر کدام</h2>
+          <li className="text-[18px] font-bold text-[#383838]">
+            مزایای ماساژ تایلندی:
           </li>
-          <li className="text-[18px]  text-[#383838]">
-            پس از فعالیت‌های بدنی شدید جهت بهبود ریکاوری عضلات
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            افزایش انعطاف‌پذیری
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            بهبود وضعیت بدنی و کاهش درد عضلانی
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            تقویت انرژی بدن و بهبود عملکرد ذهنی
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            ممکن است برای افرادی که بدن انعطاف‌پذیری ندارند، سخت باشد.
+          </p>
+          <li className="text-[18px] font-bold mt-3 text-[#383838]">
+            مزایای ماساژ سوئدی:
           </li>
-          <li className="text-[18px]  text-[#383838]">
-            قبل از خواب برای کمک به داشتن خوابی عمیق و راحت
-          </li>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            کاهش استرس و بهبود خواب
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            کاهش تنش عضلانی و بهبود گردش خون
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            فزایش احساس آرامش و راحتی
+          </p>
+          <p className="text-justify text-[#383838] mt-3 text-[18px]">
+            تأثیر کم‌تری بر انعطاف‌پذیری بدن دارد
+          </p>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
-          <h2 className="text-[25px] font-bold mb-1">
-            سوالات متداول درباره ماساژ
-          </h2>
-          <li className="text-[18px] font-bold">
-            آیا ماساژ برای همه مناسب است؟
-          </li>
+          <h2 className="text-[25px] font-bold mb-1">سوالات متداول</h2>
+          <li className="text-[18px] font-bold">آیا ماساژ تایلندی درد دارد؟</li>
           <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            بله، اما افرادی که مشکلات خاصی مانند پوکی استخوان شدید، بیماری‌های
-            پوستی یا بیماری‌های قلبی دارند، باید با پزشک خود مشورت کنند.
+            ماساژ تایلندی به دلیل حرکات کششی و فشاری ممکن است کمی دردناک باشد،
+            اما پس از جلسه، احساس سبکی و انعطاف‌پذیری بیشتری خواهید داشت.
           </p>
           <li className="text-[18px] font-bold">
-            چند بار در هفته باید ماساژ گرفت؟
+          آیا ماساژ سوئدی برای ورزشکاران مناسب است؟
           </li>
           <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            برای حفظ سلامت عمومی، یک یا دو بار در ماه کافی است، اما برای درمان
-            دردهای مزمن، ممکن است نیاز به جلسات مکررتر باشد.
+          بله، این ماساژ به کاهش دردهای عضلانی پس از تمرینات شدید کمک می‌کند.
           </p>
-          <li className="text-[18px] font-bold">آیا ماساژ درد دارد؟</li>
+          <li className="text-[18px] font-bold">چند جلسه ماساژ لازم است؟</li>
           <p className="text-justify text-[#383838] mt-3 text-[18px]">
-            بستگی به نوع ماساژ دارد. ماساژهای ملایم مانند سوئدی درد ندارند، اما
-            ماساژهایی مانند دیپ تیشو ممکن است فشار بیشتری ایجاد کنند.
+          بسته به نیاز بدن شما، معمولاً بین ۲ تا ۴ جلسه در ماه توصیه می‌شود.
           </p>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
