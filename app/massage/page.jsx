@@ -202,7 +202,7 @@ const Massage = () => {
             <Link href="/" className="text-[20px] font-bold text-blue-600">
               خدمات ما
             </Link>
-            ما دیدن کنید!
+             دیدن کنید!
           </h2>
         </div>
       </div>

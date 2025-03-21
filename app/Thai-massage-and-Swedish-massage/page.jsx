@@ -92,7 +92,7 @@ const Massage = () => {
           </p>
           <h3 className="mt-3">
             لینک‌ مرتبط :
-            <Link href="/" className="font-bold text-blue-600">
+            <Link href="/Swedish-massage" className="font-bold text-blue-600">
               راهنمای کامل ماساژ سوئدی
             </Link>
           </h3>
@@ -223,7 +223,7 @@ const Massage = () => {
             <Link href="/" className="text-[20px] font-bold text-blue-600">
               خدمات ما
             </Link>
-            ما دیدن کنید!
+             دیدن کنید!
           </h2>
         </div>
       </div>
