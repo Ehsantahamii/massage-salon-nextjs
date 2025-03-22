@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="logo-nav"><Image src="/img/logo.png" width={140} height={150} alt="menu-vector" className="" /></div>
       {/* menu */}
 
-      <ul className=" gap-12 items-center hidden lg:flex " >
+      <ul className=" gap-12 items-center hidden md:flex " >
         <li><Link href="/" className="text-[20px] font-bold ">صفحه اصلی</Link></li>
         <li><Link href="/#service" className="text-[20px] font-bold " >خدمات</Link></li>
         <li><Link href="/contact-me" className="text-[20px] font-bold ">ارتباط با من</Link></li>
@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="phone flex items-center gap-3 ">
         <a href="tel:+989130571436" className="max-md:hidden text-[20px] font-normal">۰۹۱۳۰۵۷۱۴۳۶</a>
         <FaPhone className="max-md:hidden" />
-        <FaBars className="cursor-pointer" size={20} onClick={() => setOpenMenu(!openMenu)} />
+        <FaBars className="cursor-pointer md:hidden" size={25} onClick={() => setOpenMenu(!openMenu)} />
       </div>
     </nav>
   )
