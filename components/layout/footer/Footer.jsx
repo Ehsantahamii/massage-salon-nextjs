@@ -90,11 +90,12 @@ const Footer = () => {
             طراحی و توسعه یافته توسط تیم دِو مارت
           </h4>
           <Link href="https://developmart.ir/">
-            <Image src="/img/dev_mart.svg" width={300} height={150} className="h-[50px] w-fit px-2 pt-2" />
+            <Image src="/img/dev_mart.svg" alt="developmart" width={300} height={150} className="h-[50px] w-fit px-2 pt-2" />
           </Link>
         </div>
         <Image
           src="/img/MASSAGE_footer.svg"
+          alt="massage"
           width={500}
           height={500}
           className="w-[95%] mx-auto"
