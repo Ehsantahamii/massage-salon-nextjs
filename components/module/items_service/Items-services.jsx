@@ -113,7 +113,7 @@ const ItemsServices = () => {
               <span className="font-bold">
                 {index.price}
               </span>
-              <img src={index.imgprice} className="w-[30px]" />
+              <img src={index.imgprice} alt="price" className="w-[30px]" />
             </div>
           </div>
         ))}
