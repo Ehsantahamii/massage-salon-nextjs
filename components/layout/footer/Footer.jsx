@@ -86,9 +86,15 @@ const Footer = () => {
       </div>
       <div>
         <div className="dev_mart flex items-center mb-14 px-14 max-md:flex-col max-md:px-0">
+<<<<<<< HEAD
           <h4 className="text-[#bcbcbc] text-[20px] max-md:text-center max-md:w-full max-md:mb-2">
             طراحی و توسعه یافته توسط تیم دِو مارت
           </h4>
+=======
+          <h6 className="text-[#bcbcbc] text-[20px] max-md:text-center max-md:w-full max-md:mb-2">
+            طراحی و توسعه یافته توسط تیم دو مارت
+          </h6>
+>>>>>>> 51d30d5c3390d58a07abceb7a4630280306ade96
           <Link href="https://developmart.ir/">
             <Image src="/img/dev_mart.svg" width={300} height={150} className="h-[50px] w-fit px-2 pt-2" />
           </Link>

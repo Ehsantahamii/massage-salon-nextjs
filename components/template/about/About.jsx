@@ -25,7 +25,7 @@ const About = () => {
             width={2524}
             height={4000}
             alt="مریم خلیلی زاده"
-            className=" rounded-xl z-[10] drop-shadow"
+            className=" rounded-xl z-[10] drop-shadow "
           />
         </div>
         <div className="content_about flex flex-col leading-10 w-[700px] max-md:w-full max-md:p-2 lg:w-[60%] " data-aos="fade-up"  data-aos-anchor-placement="top-bottom">

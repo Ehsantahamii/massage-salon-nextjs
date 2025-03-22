@@ -107,13 +107,22 @@ const ItemsServices = () => {
             key={item.id}
             className="content bg-white w-[30%] shadow  rounded-xl flex flex-col p-3  max-md:w-full"
           >
+<<<<<<< HEAD
             <h4 className="text-[20px] font-bold">{item.title}</h4>
             <p className="mt-3 text-justify">{item.caption}</p>
+=======
+            <h4 className="text-[20px] font-bold">{index.title}</h4>
+            <p className="mt-3 text-justify">{index.caption}</p>
+>>>>>>> 51d30d5c3390d58a07abceb7a4630280306ade96
             <div className="flex items-center justify-center mt-5 gap-1">
               <span className="font-bold">
                 {item.price}
               </span>
+<<<<<<< HEAD
               <img src={item.icon} className="w-[30px]" alt="toman-icon"/>
+=======
+              <img src={index.imgprice} alt="price" className="w-[30px]" />
+>>>>>>> 51d30d5c3390d58a07abceb7a4630280306ade96
             </div>
           </div>
         ))}

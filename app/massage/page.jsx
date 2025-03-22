@@ -170,6 +170,16 @@ const Massage = () => {
             نقش ماساژ در فرهنگ‌های باستانی: تاریخچه، روش‌ها و تأثیرات
             </Link>
           </li>
+          <li className="text-[18px] font-bold text-blue-600">
+            <Link href="/Chronic-pains">
+            تأثیر ماساژ درمانی بر کاهش دردهای مزمن
+            </Link>
+          </li>
+          <li className="text-[18px] font-bold text-blue-600">
+            <Link href="/Thai-massage-and-Swedish-massage">
+            تفاوت بین ماساژ تایلندی و ماساژ سوئدی: کدام یک برای شما مناسب‌تر است؟
+            </Link>
+          </li>
           <br />
           <hr className="border-1 border-[#2a2a2a]" />
           <br />
@@ -192,7 +202,7 @@ const Massage = () => {
             <Link href="/" className="text-[20px] font-bold text-blue-600">
               خدمات ما
             </Link>
-            ما دیدن کنید!
+             دیدن کنید!
           </h2>
         </div>
       </div>
