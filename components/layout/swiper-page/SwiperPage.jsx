@@ -3,9 +3,9 @@ import ThumbsSwiper from "@/components/module/thumbs-swiper/ThumbsSwiper";
 
 const SwiperPage = () => {
   return (
-    <div data-aos="fade-up" >
+    <section data-aos="fade-up" data-aos-anchor-placement="top-bottom"  >
       <ThumbsSwiper />
-    </div>
+    </section>
   );
 };
 

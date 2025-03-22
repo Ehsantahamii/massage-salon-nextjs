@@ -1,20 +1,16 @@
-
-@media screen and (max-width: 768px) {
-    .menu {
-      position: fixed;
-      flex-direction: column;
-      top: 0;
-      background-color: #2a2a2a;
-      width: 47vw;
-      margin-right: 130px;
-      padding: 20px;
-      z-index: 1000;
-      margin: 0 auto;
-      /* right: 0; */
-      left: 0;
-      height: 100vh;
-      padding-top: 50px;
-      color: #fff;
-    }
-  }
-  
+.mobile-nav {
+  left: -100%;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+.mobile-nav-open {
+  left: 0;
+  transition: left 0.4s ease;
+  -webkit-transition: left 0.4s ease;
+  -moz-transition: left 0.4s ease;
+  -ms-transition: left 0.4s ease;
+  -o-transition: left 0.4s ease;
+}

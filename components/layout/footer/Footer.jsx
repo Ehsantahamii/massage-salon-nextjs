@@ -51,7 +51,7 @@ const Footer = () => {
               />
             </svg>
             <p className="tracking-[0.3em] font-bold text-[#bcbcbc]">
-              09130571436
+            ۰۹۱۳۰۵۷۱۴۳۶
             </p>
           </h4>
           <h4 className="flex items-center text-[#bcbcbc] gap-1 py-1">
@@ -86,17 +86,17 @@ const Footer = () => {
       </div>
       <div>
         <div className="dev_mart flex items-center mb-14 px-14 max-md:flex-col max-md:px-0">
-          <h1 className="text-[#bcbcbc] text-[20px] max-md:text-center max-md:w-full max-md:mb-2">
-            طراحی و توسعه یافته توسط تیم دو مارت
-          </h1>
+          <h4 className="text-[#bcbcbc] text-[20px] max-md:text-center max-md:w-full max-md:mb-2">
+            طراحی و توسعه یافته توسط تیم دِو مارت
+          </h4>
           <Link href="https://developmart.ir/">
-            <Image src="/img/dev_mart.svg" width={189} height={91} />
+            <Image src="/img/dev_mart.svg" width={300} height={150} className="h-[50px] w-fit px-2 pt-2" />
           </Link>
         </div>
         <Image
           src="/img/MASSAGE_footer.svg"
-          width={100}
-          height={100}
+          width={500}
+          height={500}
           className="w-[95%] mx-auto"
         />
       </div>

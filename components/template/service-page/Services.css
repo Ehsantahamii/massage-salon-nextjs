@@ -1,24 +1,38 @@
-.bt_reserv{
-    background: linear-gradient(90deg, #d3b57c, #d6c9a7); 
-    width: 330px;
-    height: 85px;
-    border-radius: 25px;
-    border: 2px solid #a89c8e;
-    color: #ffffff; 
-    font-size: 40px; 
-    text-align: center; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
+.bt_reserv {
+  background: linear-gradient(
+    to right,
+    #a5845a 0%,
+    #a38358 1%,
+    #967744 11%,
+    #8e6f38 21%,
+    #8b6d34 30%,
+    #967941 37%,
+    #b39864 50%,
+    #e1ca9b 68%,
+    #D8BF91 76%,
+    #d8bf91 86%,
+    #ba9d71 91%,
+    #a5845a 100%
+  );
+  width: 330px;
+  height: 85px;
+  border-radius: 25px;
+  border: 2px solid #a89c8e;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
-@media screen and (max-width:768px) {
-    .bt_reserv{
-        width: 230px;
-        height: 60px;
-        margin-top: 20px;
-    }
+@media screen and (max-width: 768px) {
+  .bt_reserv {
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+  }
 }
-.title_reserv h1{
-    text-shadow: 1px .5px rgb(59 130 246 / 0.5);
+.title_reserv h1 {
+  text-shadow: 1px 0.5px rgb(59 130 246 / 0.5);
 }

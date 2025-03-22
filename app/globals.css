@@ -45,3 +45,22 @@ span,
 p {
   color: #2a2a2a;
 }
+@layer utilities {
+  .gradient-custom {
+    background: linear-gradient(
+      to right,
+      #A5845A 0%,
+      #A38358 1%,
+      #967744 11%,
+      #8E6F38 21%,
+      #8B6D34 30%,
+      #967941 37%,
+      #B39864 50%,
+      #E1CA9B 68%,
+      #E3C9D0 76%,
+      #D8BF91 86%,
+      #BA9D71 91%,
+      #A5845A 100%
+    );
+  }
+}
