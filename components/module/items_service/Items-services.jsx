@@ -107,7 +107,7 @@ const ItemsServices = () => {
             key={index.id}
             className="content bg-white w-[30%]   rounded-xl flex flex-col p-3  max-md:w-full"
           >
-            <h1 className="text-[20px] font-bold">{index.title}</h1>
+            <h4 className="text-[20px] font-bold">{index.title}</h4>
             <p className="mt-3 text-justify">{index.caption}</p>
             <div className="flex items-center justify-center mt-5 gap-1">
               <span className="font-bold">
