@@ -15,9 +15,9 @@ const ThumbsSwiper = () => {
 
     return (
         <div className="w-[100vw] py-16  overflow-x-hidden max-w-[100%] relative">
-            <h1 className="md:text-4xl font-semibold" data-aos="fade-left">
+            <h2 className="md:text-4xl font-semibold" data-aos="fade-left">
                 آرامش، سلامت و انرژی در یک تجربه بی‌نظیر
-            </h1>
+            </h2>
             <svg
                 className=" lg:hidden absolute z-[10] top-[5.1rem] right-[46%]"
                 width="28"
@@ -182,7 +182,7 @@ const ThumbsSwiper = () => {
                 breakpoints={{
                     480: {
                         slidesPerView: "2",
-                        spaceBetween: 50, // Smaller space for small screens
+                        spaceBetween: 50,
                     },
                     640: {
                         slidesPerView: "3",
