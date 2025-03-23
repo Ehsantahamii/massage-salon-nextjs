@@ -31,7 +31,7 @@ const About = () => {
         <div className="content_about flex flex-col leading-10 w-[700px] max-md:w-full max-md:p-2 lg:w-[60%] " data-aos="fade-up"  data-aos-anchor-placement="top-bottom">
           <h2 className="text-[50px] text-center lg:text-right font-bold mb-10">درباره من</h2>
           <h3 className="text-[30px] font-bold">مریم خلیلی زاده </h3>
-          <p className="font-bold">کارشناسی تربیت بدنی </p>
+          <h4 className="font-bold">کارشناسی تربیت بدنی </h4>
           <p className="font-bold text-justify max-md:text-[15px]">
             “من به عنوان یک ماسور حرفه ای با بیش از ۴ سال تجربه در زمینه ماساژ
             درمانی و ریلکسیشن، همواره تلاش کرده‌ام تا با استفاده از تکنیک‌های
