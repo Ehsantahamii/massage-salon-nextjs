@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="logo-nav"><Image src="/img/logo.png" width={140} height={150} alt="menu-vector" className="" /></div>
       {/* menu */}
 
-      <ul className=" gap-12 items-center hidden lg:flex " >
+      <ul className=" gap-12 items-center hidden md:flex " >
         <li><Link href="/" className="text-[20px] font-bold ">صفحه اصلی</Link></li>
         <li><Link href="/#service" className="text-[20px] font-bold " >خدمات</Link></li>
         <li><Link href="/contact-me" className="text-[20px] font-bold ">ارتباط با من</Link></li>
