@@ -10,9 +10,8 @@ const Hero = () => {
   return (
     <section className="hero h-[92%] flex flex-col justify-center lg:w-full mx-auto relative pt-16">
       <div className="w-full relative">
-        <Image src="/img/img-hero.jpg" className="rounded-[50px] w-[75%] max-w-[600px] mx-auto  max-h-[580px]"  data-aos="fade" width={800} height={580} alt="massage-hero-img" />
+        <Image src="/img/img-hero.jpg" className="rounded-[50px] w-[75%] max-w-[600px] mx-auto  max-h-[580px]" data-aos="fade" width={800} height={580} alt="massage-hero-img" />
         <MovingText />
-        {/* <Image src="/img/MASSAGE.svg" className="w-[90vw] lg:w-[85vw] mx-auto mt-[-6.5rem]" width={800} height={580} alt="massage-hero-img" /> */}
       </div>
 
       <div className="absolute hidden lg:flex max-w-[150px] top-0 left-0  flex-col items-center justify-center" data-aos="fade-up">
@@ -27,10 +26,10 @@ const Hero = () => {
 
       </p>
       <div className=" w-full py-8 flex flex-col items-center justify-center" data-aos="fade-up">
-        <p className="text-center font-bold text-[23px] py-4 max-w-[600px]">
-          برای یک برگشتن به یک زندگی عالی با یک ماساژ عالی تر آماده هستی ؟
-
-        </p>
+        <h1 className="text-center font-bold text-[32px] py-4 max-w-[900px]">
+          سالن تخصصی آموزش و خدمات ماساژ
+          خانم مریم خلیلی
+        </h1>
         <ReserveBtn />
       </div>
     </section >

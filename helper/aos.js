@@ -6,7 +6,9 @@ import "aos/dist/aos.css";
 export default function Aos() {
   useEffect(() => {
     AOS.init({
-      duration: 1200,
+      duration: 1000,
+      offset: 0,
+      anchorPlacement:"top-bottom",
     });
   }, []);
 
