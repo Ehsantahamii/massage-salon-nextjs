@@ -14,7 +14,7 @@ const ThumbsSwiper = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
-        <div className="w-[100vw] py-16  overflow-x-hidden max-w-[100%] relative">
+        <div className="w-[100vw]  overflow-x-hidden max-w-[100%] relative">
             <h2 className="md:text-4xl font-semibold" data-aos="fade-left">
                 آرامش، سلامت و انرژی در یک تجربه بی‌نظیر
             </h2>
