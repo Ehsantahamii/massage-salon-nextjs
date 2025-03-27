@@ -9,7 +9,7 @@ import MobileNavbar from "../mobile-navbar/MobileNavbar";
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className="navbar flex justify-between items-center my-[25px]">
+    <nav className="navbar flex justify-between items-center my-[25px] max-md:max-w-[80vw]">
       <MobileNavbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
       {/* logo */}
       <div className="logo-nav"><Image src="/img/logo.png" width={140} height={150} alt="menu-vector" className="" /></div>
