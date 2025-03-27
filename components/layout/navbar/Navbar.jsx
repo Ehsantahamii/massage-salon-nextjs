@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="phone flex items-center gap-3 ">
         <a href="tel:+989130571436" className="max-md:hidden text-[20px] font-normal">۰۹۱۳۰۵۷۱۴۳۶</a>
         <FaPhone className="max-md:hidden" />
-        <FaBars className="lg:hidden cursor-pointer" size={20} onClick={() => setOpenMenu(!openMenu)} />
+        <FaBars className="md:hidden cursor-pointer" size={20} onClick={() => setOpenMenu(!openMenu)} />
       </div>
     </nav>
   )

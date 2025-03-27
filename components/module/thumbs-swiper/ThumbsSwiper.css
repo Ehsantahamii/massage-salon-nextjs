@@ -1,5 +1,5 @@
 .mySwiper {
-  padding: 6.5rem 0 !important;
+  padding-top: 7.5rem !important;
 }
 .mySwiper .swiper-slide {
   text-align: justify;
@@ -17,9 +17,9 @@
   padding-right: 0.2rem;
   z-index: 12;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .mySwiper2 {
-    padding-top: 12rem;
+    padding-top: 13.2rem;
   }
 }
 @media screen and (min-width: 720px) {
@@ -29,7 +29,7 @@
 }
 @media screen and (min-width: 992px) {
   .mySwiper2 {
-    padding-top: 12rem;
+    padding-top: 16rem;
   }
 }
 .mySwiper2 .swiper-slide {
@@ -38,6 +38,7 @@
   max-width:200px;
   text-align: center;
   padding: 0 8px;
+  font-size: 0.8em;
   max-width: 200px;
   max-height: 200px;
   aspect-ratio: 1/1;

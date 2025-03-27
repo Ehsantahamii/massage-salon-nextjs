@@ -1,11 +1,12 @@
 "use client"
+import Link from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
 
 const ReserveBtn = () => {
     return (
         <StyledWrapper >
-            <button>
+            <Link  href="https://reserve.developmart.ir/">
                 وقت خود را رزرو کنید
                 <div className="icon-1">
                     <svg xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 26.3 65.33" style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: 'optimizeQuality', fillRule: 'evenodd', clipRule: 'evenodd' }} version="1.1" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -34,13 +35,13 @@ const ReserveBtn = () => {
                         </g>
                     </svg>
                 </div>
-            </button>
+            </Link>
         </StyledWrapper>
     );
 }
 
 const StyledWrapper = styled.div`
-  button {
+  a {
     position: relative;
     padding: 15px 45px;
     background: #E3CC9D;
@@ -53,7 +54,7 @@ const StyledWrapper = styled.div`
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
   }
 
-  button {
+  a {
     border: 1px solid #E3CC9D;
     background: linear-gradient(
       85deg,
@@ -91,7 +92,7 @@ const StyledWrapper = styled.div`
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
   }
 
-  button .icon-1 {
+  a .icon-1 {
     animation: slay-1 3s cubic-bezier(0.52, 0, 0.58, 1) infinite;
     transform: rotate(10deg);
   }
@@ -121,7 +122,7 @@ const StyledWrapper = styled.div`
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
   }
 
-  button .icon-2 {
+  a .icon-2 {
     animation: slay-2 3s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
     transform: rotate(0);
   }
@@ -151,7 +152,7 @@ const StyledWrapper = styled.div`
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
   }
 
-  button .icon-3 {
+  a .icon-3 {
     animation: slay-3 2s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
     transform: rotate(0);
   }

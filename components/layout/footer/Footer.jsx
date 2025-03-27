@@ -31,7 +31,7 @@ const Footer = () => {
                 fill="#BCBCBC"
               />
             </svg>
-            کرمان، بلوار فیروزه،کوچه 2
+            کرمان، بلوار فیروزه،کوچه ۲
           </h4>
           <h4 className="flex items-center text-[#bcbcbc] gap-1 py-1">
             <svg

@@ -103,7 +103,6 @@ const ItemsServices = () => {
       <div className="content w-full m-auto gap-5 flex justify-between items-center flex-wrap ">
         {itemsService.map((item) => (
           <div
-            data-aos="fade-up"
             key={item.id}
             className="content bg-white w-[30%] shadow  rounded-xl flex flex-col p-3  max-md:w-full"
           >

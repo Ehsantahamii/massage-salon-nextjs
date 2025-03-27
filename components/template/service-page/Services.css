@@ -15,7 +15,7 @@
     #a5845a 100%
   );
   width: 330px;
-  height: 85px;
+  height: 60px;
   border-radius: 25px;
   border: 2px solid #a89c8e;
   color: #ffffff;
@@ -29,7 +29,7 @@
 @media screen and (max-width: 768px) {
   .bt_reserv {
     width: 230px;
-    height: 60px;
+    height:40px;
     margin-top: 20px;
   }
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./not_found.css";
 export default function NotFound() {
   return (
-    <div class="container">
+    <div class="container mx-auto">
       <div class="row">
         <div class="col-sm-12 col-md-12 mt-14 mb-14">
           <svg
