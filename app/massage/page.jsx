@@ -195,7 +195,7 @@ const Massage = () => {
           <br />
           <h2 className="text-[20px] font-bold">
             📢 برای اطلاعات بیشتر و رزرو جلسه ماساژ،
-            <Link href="/" className="text-[20px] font-bold text-blue-600">
+            <Link href="https://reserve.developmart.ir/" className="text-[20px] font-bold text-blue-600">
               نوبت خود را رزرو کنید
             </Link>
             یا از
