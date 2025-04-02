@@ -62,7 +62,7 @@ const ItemsServices = () => {
       id: 8,
       title: " ماساژ سنگ های شفابخش",
       caption:
-      "سنگ های آتش فشانی بخشی از گنجینه های زمین هستند.با هر لمس سنگ های داغ ، تنش های عصبی ذوب میشوند و جانی دوباره در رگ هایتان جاری میشود که از فواید این ماساژ می توان به تزریق حس خوب ، افزایش تحرک و انعطاف پذیری ، تقویت سیستم ایمنی ، تسکین دردهای عضلات و مفاصل اشاره کرد." ,
+        "سنگ های آتش فشانی بخشی از گنجینه های زمین هستند.با هر لمس سنگ های داغ ، تنش های عصبی ذوب میشوند و جانی دوباره در رگ هایتان جاری میشود که از فواید این ماساژ می توان به تزریق حس خوب ، افزایش تحرک و انعطاف پذیری ، تقویت سیستم ایمنی ، تسکین دردهای عضلات و مفاصل اشاره کرد.",
       price: "۱,۱۰۰",
       icon: "/img/toman.svg",
     },
@@ -93,7 +93,8 @@ const ItemsServices = () => {
     {
       id: 12,
       title: "آرامش گرم  ",
-      caption: " تلفیق ماساژ برقو و سنگ های آرامش بخش بر روی بعضی نواحی بدن . از جمله فواید این ماساژ میتوان به تسکین درد عضلات ، بهبود درد مفاصل ، بهبود خواب ، افزایش سطح ایمنی بدن اشاره کرد.",
+      caption:
+        " تلفیق ماساژ برقو و سنگ های آرامش بخش بر روی بعضی نواحی بدن . از جمله فواید این ماساژ میتوان به تسکین درد عضلات ، بهبود درد مفاصل ، بهبود خواب ، افزایش سطح ایمنی بدن اشاره کرد.",
       price: "۸۰۰",
       icon: "/img/toman.svg",
     },
@@ -104,15 +105,13 @@ const ItemsServices = () => {
         {itemsService.map((item) => (
           <div
             key={item.id}
-            className="content bg-white w-[30%] shadow  rounded-xl flex flex-col p-3  max-md:w-full"
+            className="content bg-white w-[30%] h-[240px] shadow  rounded-xl flex flex-col items-center justify-center p-3  max-md:w-full"
           >
             <h4 className="text-[20px] font-bold">{item.title}</h4>
-            <p className="mt-3 text-justify text-[15px]">{item.caption}</p>
+            <p className="mt-3 text-justify text-[14px]">{item.caption}</p>
             <div className="flex items-center justify-center mt-5 gap-1 ">
-              <span className="font-bold">
-                {item.price}
-              </span>
-              <img src={item.icon} className="w-[30px]" alt="toman-icon"/>
+              <span className="font-bold">{item.price}</span>
+              <img src={item.icon} className="w-[30px]" alt="toman-icon" />
             </div>
           </div>
         ))}

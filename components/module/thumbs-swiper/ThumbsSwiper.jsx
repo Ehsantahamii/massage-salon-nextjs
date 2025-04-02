@@ -222,7 +222,7 @@ const ThumbsSwiper = () => {
                 <div className="top-0 hidden lg:block absolute bg-foreground z-50">
                     <svg
                         width="305"
-                        height="346"
+                        height="240"
                         viewBox="0 0 305 346"
                         fill="inherit"
                         xmlns="http://www.w3.org/2000/svg"
