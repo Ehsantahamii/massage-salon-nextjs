@@ -7,7 +7,7 @@ export default function Aos() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      offset: 0,
+      offset: 120,
       anchorPlacement:"top-bottom",
     });
   }, []);
