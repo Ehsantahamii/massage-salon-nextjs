@@ -18,7 +18,7 @@ const Services = () => {
           </div>
           <div className="title_reserv flex flex-col justify-center items-center mt-[45px]">
             <p className="text-[35px] font-bold mb-5 max-md:text-[22px] max-md:mb-1">برای رزرو نوبت فقط کافیه کلیک کنید</p>
-            <Link href="https://reserve.developmart.ir/" className="bt_reserv hover:scale-110 transition-all">رزرو نوبت</Link>
+            <Link href="https://reserve.developmart.ir/" className="bt_reserv hover:scale-110 transition-all max-md:p-[30px]">رزرو نوبت</Link>
           </div>
         </div>
       </div>
