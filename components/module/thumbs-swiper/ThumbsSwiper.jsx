@@ -15,7 +15,7 @@ const ThumbsSwiper = () => {
 
     return (
         <div className="w-[100vw]  overflow-x-hidden max-w-[100%] relative">
-            <h2 className="md:text-4xl font-semibold" data-aos="fade-left">
+            <h2 className="md:text-4xl font-semibold pt-5" data-aos="fade-left">
                 آرامش، سلامت و انرژی در یک تجربه بی‌نظیر
             </h2>
             <svg
