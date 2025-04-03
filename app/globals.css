@@ -30,6 +30,7 @@ nav {
   max-width: 1280px;
   width: 95vw;
   margin: 0 auto;
+  overflow: hidden;
 }
 select:focus,
 select:focus-visible {
@@ -49,18 +50,18 @@ p {
   .gradient-custom {
     background: linear-gradient(
       to right,
-      #A5845A 0%,
-      #A38358 1%,
+      #a5845a 0%,
+      #a38358 1%,
       #967744 11%,
-      #8E6F38 21%,
-      #8B6D34 30%,
+      #8e6f38 21%,
+      #8b6d34 30%,
       #967941 37%,
-      #B39864 50%,
-      #E1CA9B 68%,
-      #E3C9D0 76%,
-      #D8BF91 86%,
-      #BA9D71 91%,
-      #A5845A 100%
+      #b39864 50%,
+      #e1ca9b 68%,
+      #e3c9d0 76%,
+      #d8bf91 86%,
+      #ba9d71 91%,
+      #a5845a 100%
     );
   }
 }

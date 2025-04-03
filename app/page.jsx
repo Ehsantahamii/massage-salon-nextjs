@@ -5,11 +5,11 @@ import Services from "@/components/template/service-page/Services";
 
 export default function Home() {
   return (
-    <main className="">
+    <main >
       <Hero />
       <SwiperPage />
       <About />
-      <Services/>
+      <Services />
     </main>
   );
 }

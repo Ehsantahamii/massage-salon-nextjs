@@ -7,7 +7,7 @@ import Image from "next/image";
 const Services = () => {
 
   return (
-    <section className="service pt-14 pb-14 lg:pb-28 md:mt-[100px] " id="service" data-aos="fade-up">
+    <section className="service pt-14 pb-14 lg:pb-28 md:mt-[100px] " id="service" >
       <div className="content_service relative">
         <div className="w-full">
           <div className="title text-center"

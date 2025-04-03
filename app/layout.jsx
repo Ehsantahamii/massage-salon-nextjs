@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
       <body className={`${font.className} overflow-x-hidden`}>
-        <Aos />
+        {/* <Aos /> */}
         <LenisConfig />
         <SalProvider>
           <Navbar />

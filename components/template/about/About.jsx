@@ -17,13 +17,12 @@ const About = () => {
   ];
   return (
     <section
-      className="w-full pb-14 pt-12"  >
+      data-sal="slide-up"
+      data-sal-duration="400"
+      data-sal-easing="ease-in"
+      className="w-full py-16"  >
       <div className="about flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-8 ">
-        <div className="img_about w-[80%] mx-auto lg:w-[40%] relative"
-          data-sal="slide-up"
-          data-sal-duration="400"
-          data-sal-easing="ease-in"
-        >
+        <div className="img_about w-[80%] mx-auto lg:w-[40%] relative" >
           <svg
             className="absolute z-[-1]"
             id="sw-js-blob-svg"
@@ -138,11 +137,7 @@ const About = () => {
             </defs>
           </svg>
         </div>
-        <div className="content_about flex flex-col leading-10 w-[700px] max-md:w-full max-md:p-2 lg:w-[60%] "
-
-          data-sal="slide-up"
-          data-sal-duration="400"
-          data-sal-easing="ease-in">
+        <div className="content_about flex flex-col leading-10 w-[700px] max-md:w-full max-md:p-2 lg:w-[60%] ">
 
           <h2 className="text-[50px] text-center lg:text-right font-bold mb-10">
             درباره من

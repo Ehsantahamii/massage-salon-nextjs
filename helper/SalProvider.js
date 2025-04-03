@@ -7,7 +7,7 @@ const SalProvider = ({ children }) => {
   useEffect(() => {
     sal({
       threshold: 0.2, // 20% of element needs to be visible
-      once: false, // Animation runs only once
+      once: true, // Animation runs only once
     });
   }, []);
 
