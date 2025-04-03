@@ -3,7 +3,7 @@ import "./globals.css";
 
 import Navbar from "@/components/layout/navbar/Navbar";
 import Footer from "@/components/layout/footer/Footer";
-import Aos from "@/helper/aos";
+// import Aos from "@/helper/aos";
 import LenisConfig from "@/helper/lenis";
 import SalProvider from "@/helper/SalProvider";
 
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
       <body className={`${font.className} overflow-x-hidden`}>
-        <Aos />
+        {/* <Aos /> */}
         <LenisConfig />
         <SalProvider>
           <Navbar />
