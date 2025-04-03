@@ -1,9 +1,12 @@
 import localFont from "next/font/local";
 import "./globals.css";
+
 import Navbar from "@/components/layout/navbar/Navbar";
 import Footer from "@/components/layout/footer/Footer";
 // import Aos from "@/helper/aos";
 import LenisConfig from "@/helper/lenis";
+import SalProvider from "@/helper/SalProvider";
+
 
 const font = localFont({
   src: [
@@ -37,9 +40,11 @@ export default function RootLayout({ children }) {
       <body className={`${font.className} overflow-x-hidden`}>
         {/* <Aos /> */}
         <LenisConfig />
-        <Navbar />
-        {children}
-        <Footer />
+        <SalProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </SalProvider>
       </body>
     </html>
   );

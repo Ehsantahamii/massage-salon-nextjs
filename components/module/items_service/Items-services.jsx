@@ -105,8 +105,10 @@ const ItemsServices = () => {
         {itemsService.map((item) => (
           <div
             key={item.id}
-            className="content bg-white w-[30%] h-[240px] shadow  rounded-xl flex flex-col items-center justify-center p-3  max-md:w-full"
-          >
+            data-sal="slide-up"
+            data-sal-duration="400"
+            data-sal-easing="ease-in"
+            className="content bg-white w-[30%] h-[240px] shadow  rounded-xl flex flex-col items-center justify-center p-3  max-md:w-full" >
             <h4 className="text-[20px] font-bold">{item.title}</h4>
             <p className="mt-3 text-justify text-[14px]">{item.caption}</p>
             <div className="flex items-center justify-center mt-5 gap-1 ">

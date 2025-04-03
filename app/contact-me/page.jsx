@@ -6,7 +6,7 @@ import { FaTelegram } from "react-icons/fa";
 
 export const metadata = {
   title: " ارتباط با من | مرکز تخصصی ماساژ مریم خلیلی  ",
-  description: "ماساژ تخصصی کرمان",
+  description: "ارتباط با سالن ماساژ مریم خلیلی |سالن ماساژ  مریم خلیلی کرمان",
   icons: {
     icon: "/public/img/",
   },
@@ -778,16 +778,16 @@ const page = () => {
         </div>
         <div className="contact_me flex flex-col mt-10 ">
           <div className="social flex items-center gap-5 text-[30px]">
-            <FaPhone className="bg-[#D8BF91] p-2 text-[40px] text-[#fff]"/>
-            <span className="font-bold">09130571436 </span>
+            <FaPhone className="bg-[#D8BF91] p-2 text-[40px] rounded-full text-[#fff]" />
+            <span className="font-bold">۰۹۱۳۰۵۷۱۴۳۶ </span>
           </div>
           <div className="social flex items-center gap-5 text-[30px]">
-          <CiInstagram className="bg-[#D8BF91] p-2 text-[40px] text-[#fff]"/>
-          <span className="font-bold">mari_khalily</span>
+            <CiInstagram className="bg-[#D8BF91] p-2 text-[40px] rounded-full text-[#fff]" />
+            <span className="font-bold">mari_khalily</span>
           </div>
           <div className="social flex items-center gap-5 text-[30px]">
-          <FaTelegram className="bg-[#D8BF91] p-2 text-[40px] text-[#fff]"/>
-          <span className="font-bold">Maryam_kh1370@</span>
+            <FaTelegram className="bg-[#D8BF91] p-2 text-[40px] rounded-full text-[#fff]" />
+            <span className="font-bold">Maryam_kh1370@</span>
           </div>
         </div>
       </div>

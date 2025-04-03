@@ -1,8 +1,8 @@
 import Itemsblog from "@/components/module/items-blog/Itemsblog";
 import Link from "next/link";
 export const metadata = {
-  title: "وبلاگ | مرکز تخصصی ماساژ مریم خلیلی ",
-  description: "ماساژ تخصصی کرمان",
+  title: "مجله | مرکز تخصصی ماساژ مریم خلیلی ",
+  description: "آخرین مقالات بروزحوزه ماساژ درمانی، را در این صفحه دنبال کنید.",
 };
 const Blog = () => {
   return (
