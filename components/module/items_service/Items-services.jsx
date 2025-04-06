@@ -99,7 +99,7 @@ const ItemsServices = () => {
     },
   ];
   return (
-    <div className="items_services  flex justify-between items-center flex-wrap gap-4">
+    <div className="items_services  flex justify-between items-center flex-wrap gap-4 ">
       <div className="content w-full m-auto gap-5 flex justify-between items-center flex-wrap ">
         <svg
           width="400"
