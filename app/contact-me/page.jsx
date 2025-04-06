@@ -7,9 +7,6 @@ import { FaTelegram } from "react-icons/fa";
 export const metadata = {
   title: " ارتباط با من | مرکز تخصصی ماساژ مریم خلیلی  ",
   description: "ارتباط با سالن ماساژ مریم خلیلی |سالن ماساژ  مریم خلیلی کرمان",
-  icons: {
-    icon: "/public/img/",
-  },
 };
 const page = () => {
   return (
@@ -776,18 +773,18 @@ const page = () => {
         <div className="title flex justify-between items-center">
           <h1 className="text-[35px] font-bold max-lg:text-[25px]">راه های ارتباط با من</h1>
         </div>
-        <div className="contact_me flex flex-col mt-10 ">
+        <div className="contact_me flex flex-col mt-10  gap-2">
           <div className="social flex items-center gap-5 text-[30px]">
-            <FaPhone className="bg-[#D8BF91] p-2 text-[40px] rounded-full text-[#fff]" />
-            <span className="font-bold">۰۹۱۳۰۵۷۱۴۳۶ </span>
+            <FaPhone className="bg-[#397AC0] p-2 text-[40px] rounded-full text-[#fff]" />
+            <a href="tel:+989130571436" className="font-bold text-[18px]">۰۹۱۳۰۵۷۱۴۳۶ </a>
           </div>
           <div className="social flex items-center gap-5 text-[30px]">
-            <CiInstagram className="bg-[#D8BF91] p-2 text-[40px] rounded-full text-[#fff]" />
-            <span className="font-bold">mari_khalily</span>
+            <CiInstagram className="bg-[#397AC0] p-2 text-[40px] rounded-full text-[#fff]" />
+            <a href="https://www.instagram.com/mari_khalily?igsh=dm9hdWg2MWF6eHRs" className="font-bold text-[18px]">mari_khalily</a>
           </div>
           <div className="social flex items-center gap-5 text-[30px]">
-            <FaTelegram className="bg-[#D8BF91] p-2 text-[40px] rounded-full text-[#fff]" />
-            <span className="font-bold">Maryam_kh1370@</span>
+            <FaTelegram className="bg-[#397AC0] p-2 text-[40px] rounded-full text-[#fff]" />
+            <span className="font-bold text-[18px]">Maryam_kh1370@</span>
           </div>
         </div>
       </div>

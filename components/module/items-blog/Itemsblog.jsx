@@ -5,7 +5,7 @@ const Itemsblog = () => {
   return (
     <section className="flex justify-around items-center  flex-wrap gap-16  max-md:flex-col max-lg:gap-14 max-md:gap-14">
       <div className="box w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
-        <Link href="/massage">
+        <Link href="/blog/massage">
           <Image
             src="/img/artic1.jpg"
             width={600}
@@ -18,7 +18,7 @@ const Itemsblog = () => {
         </Link>
       </div>
       <div className="box w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
-        <Link href="/Toksentorapi">
+        <Link href="/blog/Toksentorapi">
           <Image
             src="/img/toksen.jpg"
             width={600}
@@ -33,7 +33,7 @@ const Itemsblog = () => {
         </Link>
       </div>
       <div className="box w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
-        <Link href="/Thai-massage">
+        <Link href="/blog/Thai-massage">
           <Image
             src="/img/thi-massage.webp"
             width={600}
@@ -48,7 +48,7 @@ const Itemsblog = () => {
         </Link>
       </div>
       <div className="box w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
-        <Link href="/Swedish-massage">
+        <Link href="/blog/Swedish-massage">
           <Image
             src="/img/swedish-massgae.webp"
             width={600}
@@ -63,7 +63,7 @@ const Itemsblog = () => {
         </Link>
       </div>
       <div className="box  w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
-        <Link href="/Massage-off-fitness">
+        <Link href="/blog/Massage-off-fitness">
           <Image
             src="/img/article2.jpg"
             width={600}
@@ -78,7 +78,7 @@ const Itemsblog = () => {
         </Link>
       </div>
       <div className="box  w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
-        <Link href="/Ancient-massage">
+        <Link href="/blog/Ancient-massage">
           <Image
             src="/img/article3.webp"
             width={600}
@@ -93,7 +93,7 @@ const Itemsblog = () => {
         </Link>
       </div>
       <div className="box  w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
-        <Link href="/Chronic-pains">
+        <Link href="/blog/Chronic-pains">
           <Image
             src="/img/Chronic-pains.avif"
             width={600}
@@ -108,7 +108,7 @@ const Itemsblog = () => {
         </Link>
       </div>
       <div className="box  w-[400px]  z-10 flex justify-center items-center max-md:w-full rounded-lg relative">
-        <Link href="/Thai-massage-and-Swedish-massage">
+        <Link href="/blog/Thai-massage-and-Swedish-massage">
           <Image
             src="/img/photo-1671492241804-c0e02f668bc1.avif"
             width={600}
