@@ -15,7 +15,7 @@ const Services = () => {
             data-sal-duration="400"
             data-sal-easing="ease-in">
 
-            <h2 className="text-[50px] font-bold">انواع خدمات</h2>
+            <h2 className="text-[60px] font-bold">انواع خدمات</h2>
           </div>
           <div className="content w-full mt-5">
             <ItemsServices />

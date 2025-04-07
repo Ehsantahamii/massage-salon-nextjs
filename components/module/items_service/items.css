@@ -1,0 +1,9 @@
+.titr{
+    border-bottom: 2px solid #2a2a2a;
+    transition: all .2s ease-in;
+}
+.titr:hover{
+    border: 2px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 10px;
+}
