@@ -97,7 +97,7 @@ const About = () => {
             src="/img/maryam-khalili-1.png"
             width={2524}
             height={4000}
-            alt="مریم خلیلی زاده"
+            alt="مریم خلیلی "
             className=" rounded-xl z-[10] drop-shadow "
           />
           <svg

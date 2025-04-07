@@ -51,7 +51,7 @@ const Footer = () => {
               />
             </svg>
             <p className="tracking-[0.3em] font-bold text-[#bcbcbc]">
-            ۰۹۱۳۰۵۷۱۴۳۶
+              ۰۹۱۳۰۵۷۱۴۳۶
             </p>
           </h4>
           <h4 className="flex items-center text-[#bcbcbc] gap-1 py-1">
@@ -75,10 +75,10 @@ const Footer = () => {
         <div className="lg:w-1/2 py-8 flex  justify-center lg:justify-end">
           <iframe
             className="rounded-lg"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d512.1503139955439!2d57.04572072733005!3d30.2848678090132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f0218f27950e8cd%3A0x61a9555ed77cdbb1!2z2KfYs9iq2KfZhiDaqdix2YXYp9mG2Iwg2qnYsdmF2KfZhtiMINqp2YjahtmHINmB24zYsdmI2LLZhyAy2Iwg2KfbjNix2KfZhg!5e0!3m2!1sfa!2s!4v1741512521580!5m2!1sfa!2s"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d215.33337925036463!2d57.04495757158134!3d30.2845499249053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDE3JzA0LjQiTiA1N8KwMDInNDEuMiJF!5e0!3m2!1sfa!2s!4v1744027908254!5m2!1sfa!2s"
             width="600"
             height="250"
-            allowfullscreen=""
+            allowfullscreen="true"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>

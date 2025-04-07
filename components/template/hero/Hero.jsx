@@ -24,7 +24,7 @@ const Hero = () => {
         data-sal-delay="100"
         data-sal-duration="400"
         data-sal-easing="ease-in">
-        <Image src="/img/left-hero-img.png" className="w-[150px]" width={186} height={294} alt="massage-hero-img" />
+        <Image src="/img/left-hero-img.png" className="w-[150px]" width={186} height={294} alt="massage-hero" />
         <p className="font-bold text-center">
           برای یک برگشتن به یک زندگی عالی با یک ماساژ عالی تر آماده هستی ؟
         </p>
