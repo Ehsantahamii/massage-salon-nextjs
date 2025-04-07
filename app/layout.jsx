@@ -6,6 +6,9 @@ import Footer from "@/components/layout/footer/Footer";
 // import Aos from "@/helper/aos";
 import LenisConfig from "@/helper/lenis";
 import SalProvider from "@/helper/SalProvider";
+import dynamic from "next/dynamic";
+const GoTopBtn = dynamic(() => import("@/components/module/go-top-btn/GoTopBtn"), { ssr: false });
+
 
 
 const font = localFont({
@@ -40,11 +43,11 @@ export default function RootLayout({ children }) {
       <body className={`${font.className} overflow-x-hidden`}>
         {/* <Aos /> */}
         <LenisConfig />
-        <SalProvider>
-          <Navbar />
-          {children}
-          <Footer />
-        </SalProvider>
+        <Navbar />
+        {children}
+        <GoTopBtn />
+        <Footer />
+        <SalProvider />
       </body>
     </html>
   );

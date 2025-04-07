@@ -14,6 +14,7 @@ const Hero = () => {
           data-sal="fade"
           data-sal-duration="400"
           data-sal-easing="ease-in"
+          data-sal-delay="300"
           width={800} height={580} alt="massage-hero-img" />
         <MovingText />
       </div>
